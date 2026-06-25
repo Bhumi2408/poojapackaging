@@ -1,0 +1,31 @@
+export const siteConfig = {
+  name: "Pooja Packaging Industries",
+  phone: "+91-9810006555",
+  navLinks: [
+    { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
+  ],
+  productCategories: [ 
+    { name: "PU Foam Sheet Packing", slug: "pu-foam-sheet-packing" },
+    { name: "PVC Sheet", slug: "pvc-sheet" },
+    { name: "Food Packaging", slug: "food-packaging" },
+    { name: "Rice Packaging", slug: "rice-packaging" },
+    { name: "Spices Packaging", slug: "spices-packaging" },
+    { name: "Tea Packaging", slug: "tea-packaging" },
+    { name: "Snacks Packaging", slug: "snacks-packaging" },
+    { name: "Seeds Packaging", slug: "seeds-packaging" },
+    { name: "Flour Packaging", slug: "flour-packaging" },
+    { name: "Detergent", slug: "detergent" },
+    { name: "Mattress", slug: "mattress" },
+    { name: "Pillow", slug: "pillow" },
+    { name: "Tubes Packaging", slug: "tubes-packaging" },
+    { name: "Cello Tapes", slug: "cello-tapes" },
+    { name: "Printed Laminated Pouches", slug: "printed-laminated-pouches" },
+    { name: "Printed Laminated Rolls", slug: "printed-laminated-rolls" },
+    { name: "Multi Purpose Aluminium Foil", slug: "multi-purpose-aluminium-foil" },
+  ],
+  afterProductsLinks: [
+    { label: "Blog", href: "/blogs" },
+    { label: "Contact Us", href: "/contact-us" },
+  ],
+};
