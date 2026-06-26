@@ -3,9 +3,9 @@ export const blogs = [
         slug: "best-standy-zipper-pouch-manufacturer-in-delhi",
 
         seo: {
-            title: "",
-            description: "",
-            keywords: [],
+            title: "Best Standy Zipper Pouch Manufacturer in Delhi - pooja packaging",
+            description: "Pooja Packaging Industries is a trusted Standy Zipper Pouch Manufacturer in Delhi, offering high-quality, durable, and customized packaging solutions for food, pharmaceutical, cosmetic, agricultural, and industrial applications.",
+            keywords: ["Best Standy Zipper Pouch Manufacturer in Delhi","Standy Zipper Pouch Manufacturer in Delhi","Standy Zipper Pouch Manufacturer"],
         },
 
         hero: {
@@ -403,9 +403,9 @@ export const blogs = [
         slug: "top-makhana-pouch-manufacturer-in-delhi",
 
         seo: {
-            title: "",
-            description: "",
-            keywords: [],
+            title: "Top Makhana Pouch Manufacturer in Delhi | Pooja Packaging Industries",
+            description: "Looking for the top makhana pouch manufacturer in Delhi? Discover features, benefits, buying tips, and why Pooja Packaging Industries is the most trusted choice for makhana packaging in Delhi.",
+            keywords: ["Top Makhana Pouch Manufacturer in Delhi","Makhana Pouch Manufacturer in Delhi","Makhana Pouch Manufacturer"],
         },
 
         hero: {

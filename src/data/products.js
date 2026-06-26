@@ -244,14 +244,19 @@ export const products = [
         faq: [],
     },
     {
-        slug: "detergent",
+        slug: "detergent-pouch-manufacturer",
 
-        title: "Detergent",
+        title: "Detergent Pouch Manufacturer",
 
         seo: {
-            title: "",
-            description: "",
-            keywords: [],
+            title:
+                "Best Detergent Pouch Manufacturer in Delhi - Pooja Packaging Industries",
+            description:
+                "Pooja Packaging Industries — Delhi's trusted Detergent Pouch Manufacturer. Custom detergent pouches: durable, leak-proof & bulk-ready. Get a free quote today!",
+            keywords: [
+                "Detergent Pouch Manufacturer",
+                "Detergent Pouch Manufacturer in Delhi",
+            ],
         },
 
         images: [
@@ -268,8 +273,225 @@ export const products = [
             "/images/detergent/detergent11.jpeg",
         ],
 
-        content: [],
-        faq: [],
+        content: [
+            {
+                type: "h2",
+                text: "Best Detergent Pouch Manufacturer in Delhi | Pooja Packaging Industries",
+            },
+
+            {
+                type: "paragraph",
+                text: "Looking for a reliable detergent pouch manufacturer in Delhi? Pooja Packaging Industries is your trusted packaging partner — delivering high-quality, durable, and customizable detergent pouches to FMCG brands, detergent manufacturers, and private label businesses across India.",
+            },
+
+            {
+                type: "h3",
+                text: "Why Detergent Pouches Are the Smart Packaging Choice",
+            },
+
+            {
+                type: "paragraph",
+                text: "In today's competitive FMCG market, packaging is more than protection — it's your brand's first impression. Detergent pouches have rapidly replaced traditional boxes and rigid containers because they are:",
+            },
+
+            {
+                type: "features",
+                items: [
+                    "Lightweight & cost-effective — reduce logistics and material costs",
+                    "Leak-proof & airtight — preserve detergent quality and shelf life",
+                    "Eco-friendly options available — recyclable and low-waste materials",
+                    "Highly customizable — size, print, spout, zipper, or tear-notch as per need",
+                ],
+            },
+
+            {
+                type: "paragraph",
+                text: "Whether you need pouches for liquid detergent, powder detergent, or detergent concentrate, we manufacture packaging that fits your product perfectly.",
+            },
+
+            {
+                type: "h4",
+                text: "Our Detergent Pouch Range",
+            },
+
+            {
+                type: "paragraph",
+                text: "At Pooja Packaging Industries, we manufacture a wide variety of detergent pouches:",
+            },
+
+            {
+                type: "features",
+                items: [
+                    "Flat Bottom Pouches — for premium shelf display",
+                    "Stand-Up Pouches (Doypack) — ideal for liquid and powder detergent",
+                    "Centre Seal Pouches — cost-effective for bulk packaging",
+                    "Spout Pouches — perfect for liquid detergent refill packs",
+                    "Side Gusset Pouches — high capacity for large SKUs",
+                ],
+            },
+
+            {
+                type: "paragraph",
+                text: "All pouches are available with custom printing (up to 10 colours), lamination, zipper, and tear-notch options.",
+            },
+
+            {
+                type: "h4",
+                text: "Why Choose Pooja Packaging Industries?",
+            },
+
+            {
+                type: "checklist",
+                items: [
+                    "Based in Delhi — serving PAN India",
+                    "Bulk manufacturing with fast turnaround time",
+                    "Food-grade and BIS-compliant materials",
+                    "Low MOQ for startups and high-volume orders for large brands",
+                    "In-house design support for brand-ready packaging",
+                ],
+            },
+
+            {
+                type: "paragraph",
+                text: "We serve detergent brands, private label manufacturers, contract packagers, and distributors — delivering packaging that sells.",
+            },
+
+            {
+                type: "h3",
+                text: "Get Custom Detergent Pouches — Made in Delhi",
+            },
+
+            {
+                type: "paragraph",
+                text: "Whether you're launching a new detergent brand or scaling your existing product line, Pooja Packaging Industries offers end-to-end packaging solutions — from design to delivery.",
+            },
+
+            {
+                type: "callout",
+                title: "Contact Us",
+                content:
+                    "📍 Located in Delhi | Delivering Across India\n📞 Contact us today for pricing, samples, and bulk order quotes.",
+            },
+        ],
+
+        faq: [
+            {
+                question: "What is a detergent pouch?",
+                answer:
+                    "A detergent pouch is a flexible packaging solution made from multilayer laminated films, used to pack liquid or powder detergents. It is lightweight, durable, leak-proof, and available in various sizes and closure types like zippers and spouts.",
+            },
+            {
+                question:
+                    "Who is the best detergent pouch manufacturer in Delhi?",
+                answer:
+                    "Pooja Packaging Industries is a leading detergent pouch manufacturer in Delhi, offering custom flexible pouches for liquid and powder detergents with bulk supply, fast delivery, and low MOQ options.",
+            },
+            {
+                question: "What types of detergent pouches are available?",
+                answer:
+                    "Common types include stand-up pouches, flat bottom pouches, spout pouches, centre seal pouches, and side gusset pouches — each suited for different detergent types and packaging requirements.",
+            },
+            {
+                question: "What material is used to make detergent pouches?",
+                answer:
+                    "Detergent pouches are typically made from multilayer laminated films such as PET, BOPP, LDPE, and aluminium foil combinations — chosen for moisture resistance, strength, and barrier properties.",
+            },
+            {
+                question:
+                    "Can I get custom printed detergent pouches in Delhi?",
+                answer:
+                    " Yes. Pooja Packaging Industries offers fully custom printed detergent pouches in Delhi with up to 10-colour printing, brand logo, product details, and various finish options like matte or gloss lamination.",
+            },
+            {
+                question:
+                    "What is the minimum order quantity for detergent pouches?",
+                answer:
+                    "MOQ varies based on pouch size and type. Pooja Packaging Industries offers flexible MOQ for startups and small businesses, along with bulk pricing for large FMCG brands. Contact directly for a custom quote.",
+            },
+            {
+                question: " Are detergent pouches eco-friendly?",
+                answer:
+                    "Many modern detergent pouches are made from recyclable or biodegradable materials. Compared to rigid plastic containers, pouches use up to 70% less plastic, making them a more sustainable packaging choice.",
+            },
+            {
+                question:
+                    "How do I choose the right pouch for my detergent product?",
+                answer:
+                    " Choosing the right pouch depends on your detergent type (liquid/powder), quantity, shelf display need, and budget. A packaging expert at Pooja Packaging Industries can guide you to the best option.",
+            },
+        ],
+
+        faqSchema: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+                {
+                    "@type": "Question",
+                    "name": "What is a detergent pouch?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "A detergent pouch is a flexible packaging solution made from multilayer laminated films, used to pack liquid or powder detergents. It is lightweight, durable, leak-proof, and available in various sizes and closure types like zippers and spouts."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Who is the best detergent pouch manufacturer in Delhi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Pooja Packaging Industries is a leading detergent pouch manufacturer in Delhi, offering custom flexible pouches for liquid and powder detergents with bulk supply, fast delivery, and low MOQ options."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What types of detergent pouches are available?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Common types include stand-up pouches, flat bottom pouches, spout pouches, centre seal pouches, and side gusset pouches — each suited for different detergent types and packaging requirements."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What material is used to make detergent pouches?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Detergent pouches are typically made from multilayer laminated films such as PET, BOPP, LDPE, and aluminium foil combinations — chosen for moisture resistance, strength, and barrier properties."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I get custom printed detergent pouches in Delhi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Pooja Packaging Industries offers fully custom printed detergent pouches in Delhi with up to 10-colour printing, brand logo, product details, and various finish options like matte or gloss lamination."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the minimum order quantity for detergent pouches?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "MOQ varies based on pouch size and type. Pooja Packaging Industries offers flexible MOQ for startups and small businesses, along with bulk pricing for large FMCG brands. Contact directly for a custom quote."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are detergent pouches eco-friendly?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Many modern detergent pouches are made from recyclable or biodegradable materials. Compared to rigid plastic containers, pouches use up to 70% less plastic, making them a more sustainable packaging choice."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How do I choose the right pouch for my detergent product?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Choosing the right pouch depends on your detergent type (liquid/powder), quantity, shelf display need, and budget. A packaging expert at Pooja Packaging Industries can guide you to the best option."
+                    }
+
+                }
+            ],
+        },
     },
     {
         slug: "mattress",

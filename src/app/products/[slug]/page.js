@@ -1,6 +1,8 @@
+
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { products } from "@/data/products";
+import ProductFAQ from "@/components/ProductFAQ";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
@@ -107,9 +109,82 @@ export default async function ProductPage({ params }) {
                   </div>
                 </div>
               </div>
+
+
             ))}
           </div>
 
+          {product.content.map((item, index) => {
+            switch (item.type) {
+              case "h2":
+                return (
+                  <h2 key={index} className="text-4xl font-bold mt-7 mb-6">
+                    {item.text}
+                  </h2>
+                );
+
+              case "h3":
+                return (
+                  <h3 key={index} className="text-3xl font-semibold mt-7 mb-5">
+                    {item.text}
+                  </h3>
+                );
+
+              case "h4":
+                return (
+                  <h3 key={index} className="text-2xl font-semibold mt-7 mb-5">
+                    {item.text}
+                  </h3>
+                );
+
+              case "paragraph":
+                return (
+                  <p key={index} className="text-lg leading-8 text-gray-700 mb-6">
+                    {item.text}
+                  </p>
+                );
+
+              case "features":
+                return (
+                  <ul key={index} className="space-y-4 mb-8">
+                    {item.items.map((feature, i) => (
+                      <li key={i} className="flex gap-3">
+                        <span className="text-[#C23E34]">•</span>
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                );
+
+              case "checklist":
+                return (
+                  <div key={index} className="space-y-4 mb-8">
+                    {item.items.map((point, i) => (
+                      <div key={i} className="flex gap-3">
+                        <span className="text-green-600">✔</span>
+                        {point}
+                      </div>
+                    ))}
+                  </div>
+                );
+
+              case "callout":
+                return (
+                  <div
+                    key={index}
+                    className="bg-[#1E2126] text-white rounded-2xl p-8 mt-7"
+                  >
+                    <h4 className="text-2xl font-bold mb-4">{item.title}</h4>
+                    <p className="whitespace-pre-line">{item.content}</p>
+                  </div>
+                );
+
+
+            }
+          })}
+
+          {/* FAQ Section */}
+          <ProductFAQ faq={product.faq} />
         </div>
       </section>
     </>

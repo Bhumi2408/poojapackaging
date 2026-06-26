@@ -78,7 +78,7 @@ const category = [
     image: "/images/home/detergent-category.jpeg",
     alt: "Detergent",
     name: "Detergent",
-     href: "/products/detergent",
+     href: "/products/detergent-pouch-manufacturer",
   },
   {
     image: "/images/home/pillow-category.jpeg",

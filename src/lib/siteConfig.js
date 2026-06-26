@@ -15,7 +15,7 @@ export const siteConfig = {
     { name: "Snacks Packaging", slug: "snacks-packaging" },
     { name: "Seeds Packaging", slug: "seeds-packaging" },
     { name: "Flour Packaging", slug: "flour-packaging" },
-    { name: "Detergent", slug: "detergent" },
+    { name: "Detergent", slug: "detergent-pouch-manufacturer" },
     { name: "Mattress", slug: "mattress" },
     { name: "Pillow", slug: "pillow" },
     { name: "Tubes Packaging", slug: "tubes-packaging" },
