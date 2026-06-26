@@ -55,11 +55,11 @@ export default async function BlogDetails({ params }) {
         <div className="w-[75%] mx-auto pt-44 pb-28">
           <p className="text-[#C23E34] text-lg">{blog.hero.category}</p>
 
-          <h1 className="mt-5 text-6xl font-semibold leading-tight text-white">
+          <h1 className="mt-5 text-3xl md:text-6xl font-semibold leading-tight text-white">
             {blog.hero.title}
           </h1>
 
-          <div className="mt-10 flex gap-8 text-[#BBBBBB]">
+          <div className="mt-10 flex gap-3 md:gap-8 text-[#BBBBBB]">
             <span>{blog.hero.publishedDate}</span>
 
             <span>{blog.hero.author}</span>
@@ -209,7 +209,7 @@ export default async function BlogDetails({ params }) {
                           className="rounded-2xl border border-gray-200 bg-[#F8F8F8] p-6"
                         >
                           <div className="flex items-start gap-4 ">
-                            <div className="flex h-10 w-10 w-[10%] items-center justify-center rounded-full bg-[#C23E34] text-white">
+                            <div className="flex h-10 w-10 w-[15%] lg:w-[10%] items-center justify-center rounded-full bg-[#C23E34] text-white">
                               <CheckCircle2 className="w-5 h-5" />
                             </div>
 

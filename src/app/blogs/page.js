@@ -10,7 +10,7 @@ const page = () => {
         <div className="pt-44 w-[50%]">
           <div className="pl-20 pb-20">
 
-            <h3 className="text-7xl font-semibold text-white leading-tight">
+            <h3 className="text-5xl lg:text-7xl font-semibold text-white leading-tight">
               Blog
             </h3>
           </div>
@@ -30,7 +30,7 @@ const page = () => {
       </section>
 
       <section className="bg-white relative z-[5] -mt-[100px] rounded-b-[100px] pt-[150px] pb-24">
-        <div className="w-[75%] mx-auto">
+        <div className="md:w-[75%] mx-auto px-5 md:px-0">
 
           <div className="mb-16 text-center">
             <p className="text-[#C23E34] font-medium uppercase tracking-[3px]">
@@ -48,7 +48,7 @@ const page = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
             {blogs.map((blog) => (
 

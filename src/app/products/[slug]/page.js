@@ -38,9 +38,9 @@ export default async function ProductPage({ params }) {
     <>
       {/* Hero */}
       <section className="bg-[#1E2126] flex rounded-b-[100px] relative z-10 overflow-hidden">
-        <div className="pt-44 w-1/2">
-          <div className="pl-20 pb-20">
-            <h1 className="text-7xl font-semibold text-white leading-tight">
+        <div className="pt-44 md:w-1/2">
+          <div className="pl-10 md:pl-20 pb-20">
+            <h1 className="text-4xl lg:text-7xl font-semibold text-white leading-tight">
               {product.title}
             </h1>
           </div>
@@ -67,7 +67,7 @@ export default async function ProductPage({ params }) {
               OUR PACKAGING RANGE
             </p>
 
-            <h2 className="text-5xl font-bold mt-3 text-[#1E2126]">
+            <h2 className="text-3xl lg:text-5xl font-bold mt-3 text-[#1E2126]">
               {product.title}
             </h2>
 
