@@ -40,9 +40,9 @@ export default async function ProductPage({ params }) {
       <section className="bg-[#1E2126] flex rounded-b-[100px] relative z-10 overflow-hidden">
         <div className="pt-44 md:w-1/2">
           <div className="pl-10 md:pl-20 pb-20">
-            <h1 className="text-4xl lg:text-7xl font-semibold text-white leading-tight">
-              {product.title}
-            </h1>
+            <h2 className="text-4xl lg:text-7xl font-semibold text-white leading-tight">
+              {product.name}
+            </h2>
           </div>
         </div>
 
@@ -67,9 +67,9 @@ export default async function ProductPage({ params }) {
               OUR PACKAGING RANGE
             </p>
 
-            <h2 className="text-3xl lg:text-5xl font-bold mt-3 text-[#1E2126]">
+            <h1 className="text-3xl lg:text-5xl font-bold mt-3 text-[#1E2126]">
               {product.title}
-            </h2>
+            </h1>
 
             <div className="w-20 h-1 bg-[#C23E34] rounded-full mx-auto mt-5"></div>
           </div>
@@ -118,31 +118,47 @@ export default async function ProductPage({ params }) {
             switch (item.type) {
               case "h2":
                 return (
-                  <h2 key={index} className="text-4xl font-bold mt-7 mb-6">
-                    {item.text}
-                  </h2>
+                  <h2
+                    key={index}
+                    className="text-4xl font-bold mt-7 mb-6"
+                    dangerouslySetInnerHTML={{ __html: item.text }}
+                  />
                 );
 
               case "h3":
                 return (
-                  <h3 key={index} className="text-3xl font-semibold mt-7 mb-5">
-                    {item.text}
-                  </h3>
+                  <h3 key={index} className="text-3xl font-semibold mt-7 mb-5"
+                    dangerouslySetInnerHTML={{ __html: item.text }}
+                  />
                 );
 
               case "h4":
                 return (
-                  <h3 key={index} className="text-2xl font-semibold mt-7 mb-5">
-                    {item.text}
-                  </h3>
+                  <h4 key={index} className="text-2xl font-semibold mt-7 mb-5"
+                    dangerouslySetInnerHTML={{ __html: item.text }}
+                  />
+                );
+
+              case "h5":
+                return (
+                  <h5 key={index} className="text-xl font-semibold mt-7 mb-5"
+                    dangerouslySetInnerHTML={{ __html: item.text }}
+                  />
                 );
 
               case "paragraph":
                 return (
-                  <p key={index} className="text-lg leading-8 text-gray-700 mb-6">
-                    {item.text}
-                  </p>
+                  <p
+                    key={index}
+                    className="text-lg leading-8 text-gray-700 mb-6"
+                    dangerouslySetInnerHTML={{ __html: item.text }}
+                  />
                 );
+
+              case "bold":
+                return (
+                  <strong key={index}>{item.text}</strong>
+                )
 
               case "features":
                 return (
@@ -150,7 +166,15 @@ export default async function ProductPage({ params }) {
                     {item.items.map((feature, i) => (
                       <li key={i} className="flex gap-3">
                         <span className="text-[#C23E34]">•</span>
-                        {feature}
+
+                        {typeof feature === "string" ? (
+                          feature
+                        ) : (
+                          <span>
+                            <strong>{feature.bold}</strong>
+                            {feature.text}
+                          </span>
+                        )}
                       </li>
                     ))}
                   </ul>
@@ -162,7 +186,7 @@ export default async function ProductPage({ params }) {
                     {item.items.map((point, i) => (
                       <div key={i} className="flex gap-3">
                         <span className="text-green-600">✔</span>
-                        {point}
+                        <span dangerouslySetInnerHTML={{ __html: point }} />
                       </div>
                     ))}
                   </div>
@@ -174,8 +198,14 @@ export default async function ProductPage({ params }) {
                     key={index}
                     className="bg-[#1E2126] text-white rounded-2xl p-8 mt-7"
                   >
-                    <h4 className="text-2xl font-bold mb-4">{item.title}</h4>
-                    <p className="whitespace-pre-line">{item.content}</p>
+                    <h4
+                      className="text-2xl font-bold mb-4"
+                      dangerouslySetInnerHTML={{ __html: item.title }}
+                    />
+                    <div
+                      className="whitespace-pre-line"
+                      dangerouslySetInnerHTML={{ __html: item.content }}
+                    />
                   </div>
                 );
 

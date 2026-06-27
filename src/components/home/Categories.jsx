@@ -18,7 +18,7 @@ const category = [
     image: "/images/home/spice-scroll.jpeg",
     alt: "Spices packaging",
     name: "Spices Packaging",
-    href: "/products/spices-packaging",
+    href: "/products/Spices-pouch-manufacturer",
   },
   {
     image: "/images/home/tubes-category.png",
@@ -30,7 +30,7 @@ const category = [
     image: "/images/home/flour-category.webp",
     alt: "Flour packaging",
     name: "Flour Packaging",
-    href: "/products/flour-packaging",
+    href: "/products/atta-pouch-manufacturer",
   },
   {
     image: "/images/home/rice-category.png",
