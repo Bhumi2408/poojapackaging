@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { products } from "@/data/products";
 import ProductFAQ from "@/components/ProductFAQ";
 
+
+
 export async function generateMetadata({ params }) {
   const { slug } = await params;
 

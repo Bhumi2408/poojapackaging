@@ -2,6 +2,15 @@ import Categories from '@/components/home/Categories'
 import Image from 'next/image'
 import React from 'react'
 
+export const metadata = {
+  title: "Products - Pooja Packaging Industries",
+  description:
+    "Custom packaging products in Delhi — laminated pouches, printed rolls, zipper pouches, mattress bags & tubes by Pooja Packaging Industries. Get a free quote!",
+  alternates: {
+    canonical: "https://www.poojapackagingindustries.com/products",
+  },
+};
+
 const page = () => {
   return (
     <>

@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# AI Crawlers
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Optional: Block SEO tools
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+Sitemap: https://www.poojapackagingindustries.com/sitemap.xml
