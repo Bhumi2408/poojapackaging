@@ -2,6 +2,7 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -20,6 +21,18 @@ export const metadata = {
     icon: "/logo.png",
   },
 };
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>
+        {children}
+      </body>
+
+      <GoogleAnalytics gaId="G-MPB2FG5B2Y" />
+    </html>
+  );
+}
 
 export default function RootLayout({ children }) {
   return (
