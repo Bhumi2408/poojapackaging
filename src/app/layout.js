@@ -4,7 +4,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
-
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
   variable: "--font-jakarta",
@@ -12,8 +11,10 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata = {
   title: "Pooja Packaging Industries - Top Custom packaging solutions India",
-  description: "At Pooja Packaging Industries, we deliver innovative packaging solutions that protect your products and strengthen your brand presence. With years of experience in laminated rolls, pouches, and zipper packs, we focus on quality, durability, and attractive designs that meet industry standards.",
-  keywords: "Pooja Packaging Industries, Custom packaging solutions in India",
+  description:
+    "At Pooja Packaging Industries, we deliver innovative packaging solutions that protect your products and strengthen your brand presence. With years of experience in laminated rolls, pouches, and zipper packs, we focus on quality, durability, and attractive designs that meet industry standards.",
+  keywords:
+    "Pooja Packaging Industries, Custom packaging solutions in India",
   verification: {
     google: "KuwDmc5iAkgXQ4WhPIrB8FeLNvtC0xCrT41fCO6ToAo",
   },
@@ -21,18 +22,6 @@ export const metadata = {
     icon: "/logo.png",
   },
 };
-
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>
-        {children}
-      </body>
-
-      <GoogleAnalytics gaId="G-MPB2FG5B2Y" />
-    </html>
-  );
-}
 
 export default function RootLayout({ children }) {
   return (
@@ -46,6 +35,8 @@ export default function RootLayout({ children }) {
 
         <Footer />
       </body>
+
+      <GoogleAnalytics gaId="G-MPB2FG5B2Y" />
     </html>
   );
 }
