@@ -2086,12 +2086,13 @@ export const products = [
     {
         slug: "seeds-packaging",
 
-        title: "Seeds Packaging",
+        name: "Seeds Packaging",
+        title: "Seeds Packaging Pouch",
 
         seo: {
-            title: "",
-            description: "",
-            keywords: [],
+            title: "Best Seeds Packaging Pouch Manufacturer in Delhi | Pooja Packaging Industries",
+            description: "Seeds Packaging Manufacturer in Delhi — Pooja Packaging Industries. Custom printed pouches for chia, flax, sunflower & agricultural seeds. Bulk & wholesale orders. Contact us now!",
+            keywords: ["Seeds Packaging Pouch", "Seeds Packaging Pouch Manufacturer"],
         },
 
         images: [
@@ -2110,8 +2111,301 @@ export const products = [
             "/images/seeds-packaging/seed13.png",
         ],
 
-        content: [],
-        faq: [],
+        content: [
+            {
+                type: "h2",
+                text: "Seeds Packaging Pouch Manufacturer",
+            },
+
+            {
+                type: "paragraph",
+                text: "Seeds are small — but their packaging needs to be mighty. Whether it's a premium chia seed brand targeting health-conscious consumers or an agricultural seed company supplying farmers across India, the right <strong>seeds packaging pouch</strong> protects viability, builds trust, and drives shelf sales.",
+            },
+
+            {
+                type: "paragraph",
+                text: "Pooja Packaging Industries is a trusted <strong>seeds packaging manufacturer in Delhi<strong/>, delivering custom-printed, airtight, and durable seed pouches for superfood brands, ayurvedic companies, agricultural seed suppliers, and health food businesses across India."
+            },
+
+            {
+                type: "h3",
+                text: "Our Seeds Packaging Range",
+            },
+
+            {
+                type: "paragraph",
+                text: "As a specialist seeds packaging manufacturer in Delhi, we offer a complete range of seed packing solutions:",
+            },
+
+            {
+                type: "features",
+                items: [
+                    {
+                        bold: "Zipper Resealable Pouches",
+                        text: " — most popular for chia, flax, pumpkin & sunflower seeds"
+                    },
+                    {
+                        bold: "Stand-Up Pouches (Doypack)",
+                        text: " — premium retail display for superfood and health seed brands"
+                    },
+                    {
+                        bold: "Flat Bottom Pouches",
+                        text: " — modern, stable packaging for premium seed product lines"
+                    },
+                    {
+                        bold: "Aluminium Foil Pouches",
+                        text: " — maximum barrier for long shelf-life and export seed packaging"
+                    },
+                    {
+                        bold: "Transparent Window Pouches",
+                        text: " — show the seed quality to build consumer confidence"
+                    },
+                    {
+                        bold: "Agricultural Seed Pouches",
+                        text: " — heavy-duty, printed pouches for crop seeds and garden seeds"
+                    },
+                    {
+                        bold: "Side Gusset Pouches",
+                        text: " — high-capacity option for 500g, 1kg & bulk seed packs"
+                    },
+                    {
+                        bold: "Printed Laminated Pouches",
+                        text: " — vibrant brand packaging for retail superfood seeds"
+                    },
+                    {
+                        bold: "Kraft Paper + Laminated Pouches",
+                        text: " — eco-friendly look for organic seed brands"
+                    },
+                ],
+            },
+
+            {
+                type: "paragraph",
+                text: "All pouches available with <strong>custom size, multi-colour printing, matte/gloss lamination, zipper, tear-notch, and window options.</strong>",
+            },
+
+            {
+                type: "h5",
+                text: "Seeds We Pack — From Superfoods to Crop Seeds",
+            },
+
+            {
+                type: "checklist",
+                items: [
+                    "<strong>Edible Superfoods</strong> — chia seeds, flax seeds, hemp seeds, basil seeds (sabja)",
+                    "<strong>Cooking Seeds</strong> — sesame seeds, cumin seeds, mustard seeds, fennel seeds",
+                    "<strong>Snacking Seeds</strong> — pumpkin seeds, sunflower seeds, watermelon seeds, makhana",
+                    "<strong>Health & Wellness</strong> — moringa seeds, ashwagandha seeds, garden cress seeds",
+                    "<strong>Agricultural Seeds</strong> — vegetable seeds, flower seeds, crop seeds, hybrid seed",
+                    "<strong>Ayurvedic Seeds</strong> — methi seeds, ajwain seeds, kalonji seeds, lotus seeds"
+                ],
+            },
+
+            {
+                type: "h5",
+                text: "Two Categories, One Reliable Manufacturer",
+            },
+
+            {
+                type: "paragraph",
+                text: "We serve <strong>two distinct seed packaging markets</strong> from one facility in Delhi:",
+            },
+
+            {
+                type: "features",
+                items: [
+                    {
+                        bold: "1. Health & Superfood Brands",
+                        text: " — premium retail pouches with eye-catching design, organic certifications, nutritional facts, and resealable closures for urban health consumers."
+                    },
+                    {
+                        bold: "2. Agricultural Seed Companies",
+                        text: " — durable, moisture-proof, printed seed packets for farmers, nurseries, garden centres, and agri-distributors — with germination info, sowing instructions, and variety details."
+                    },
+                ],
+            },
+
+            {
+                type: "paragraph",
+                text: "Both categories get the same commitment — quality materials, sharp printing, and on-time bulk delivery."
+            },
+
+            {
+                type: "h5",
+                text: "Why Choose Pooja Packaging Industries?",
+            },
+
+
+            {
+                type: "h5",
+                text: "Snacks Packaging Pouch Wholesale — Bulk Ready, Always",
+            },
+
+
+            {
+                type: "checklist",
+                items: [
+                    "Based in <strong>Delhi — supplying PAN India</strong>",
+                    "<strong>Moisture-proof, airtight barrier films</strong> — preserves seed viability and nutrition",
+                    "<strong>Custom printing</strong> — brand logo, certifications, usage info, nutritional facts",
+                    "Eco-friendly kraft + laminated options for<strong> organic seed brands </strong>",
+                    "Low MOQ for new health brands <strong> + bulk wholesale pricing </strong> for large seed companies",
+                    "Agricultural seed pouches with <strong>germination & sowing details printing</strong>",
+                    " Fast production with <strong> consistent quality and on-time delivery </strong>",
+                ],
+            },
+
+            {
+                type: "h5",
+                text: "Small Seeds. Big Brand. Let's Package It Right.",
+            },
+
+            {
+                type: "paragraph",
+                text: "From a 50g superfood seed pouch to a 5kg agricultural seed bag — Pooja Packaging Industries manufactures seeds packaging that protects your product, tells your brand story, and wins on the shelf.",
+            },
+
+            {
+                type: "callout",
+                title: "Contact Us",
+                content:
+                    "📍  Located in Delhi | Delivering Across India\n📞 Contact us today for samples, wholesale pricing & bulk order quotes.",
+            },
+        ],
+
+        faq: [
+            {
+                question: "What is seeds packaging?",
+                answer:
+                    "Seeds packaging refers to flexible pouches and bags specially designed to store, protect, and retail edible seeds (chia, flax, pumpkin, sunflower) and agricultural crop seeds. It uses airtight, moisture-proof laminated films to preserve seed viability, nutritional value, and freshness during storage, transit, and retail display.",
+            },
+            {
+                question:
+                    " Who is the best seeds packaging manufacturer in Delhi?",
+                answer:
+                    "Pooja Packaging Industries is a trusted seeds packaging manufacturer in Delhi, offering custom-printed, airtight pouches for superfood seed brands, ayurvedic companies, and agricultural seed suppliers — with low MOQ, bulk wholesale pricing, and pan-India delivery.",
+            },
+            {
+                question: "What types of seeds packaging pouches are available?",
+                answer:
+                    "Common seeds packaging options include zipper resealable pouches, stand-up pouches, flat bottom pouches, aluminium foil pouches, transparent window pouches, agricultural seed packets, side gusset pouches, and eco-friendly kraft pouches — suited for edible superfoods, cooking seeds, and agricultural crop seeds.",
+            },
+            {
+                question: "What material is best for seeds packaging?",
+                answer:
+                    " Seeds packaging pouches are made from food-grade multilayer laminated films such as BOPP, PET, aluminium foil, and LDPE combinations. Aluminium foil provides the highest moisture and UV barrier for long shelf-life seeds, while transparent BOPP films are preferred for window pouches that showcase seed quality.",
+            },
+            {
+                question:
+                    "Can seeds packaging pouches be used for agricultural seeds?",
+                answer:
+                    "Yes. Pooja Packaging Industries manufactures specialised agricultural seed pouches with heavy-duty moisture-proof films, custom printing for crop variety details, germination rates, and sowing instructions — suitable for vegetable seeds, flower seeds, and hybrid crop seeds supplied to farmers and nurseries.",
+            },
+            {
+                question:
+                    "What sizes are available for seeds packaging pouches?",
+                answer:
+                    "Seeds packaging pouches are available in sizes from 50g, 100g, 250g, 500g to 1kg and bulk sizes, depending on the seed type and market (retail superfood vs. agricultural distribution). Custom sizes can be manufactured as per your product and SKU requirement.",
+            },
+            {
+                question: "Can I get eco-friendly seeds packaging for organic seed brands?",
+                answer:
+                    "Yes. Pooja Packaging Industries offers eco-friendly kraft paper combined with laminated film pouches, giving an organic and natural look preferred by health-conscious consumers and certified organic seed brands — available with custom printing and resealable zipper options.",
+            },
+            {
+                question:
+                    "Can I get custom printed seed pouches in Delhi?",
+                answer:
+                    "Yes. Pooja Packaging Industries offers fully custom printed seeds packaging in Delhi with brand logo, seed variety, net weight, nutritional facts, organic certifications, usage instructions, and FSSAI details — in matte, gloss, metallic, or kraft finish as per your brand positioning.",
+            },
+            {
+                question:
+                    "What is the minimum order quantity for seeds packaging pouches?",
+                answer:
+                    "MOQ varies by pouch type, size, and printing complexity. Pooja Packaging Industries offers flexible low MOQ for new health food and superfood seed brands, along with competitive bulk wholesale pricing for large agricultural seed companies and established health food brands.",
+            },
+        ],
+
+        faqSchema: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+                {
+                    "@type": "Question",
+                    "name": "What is seeds packaging?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Seeds packaging refers to flexible pouches and bags specially designed to store, protect, and retail edible seeds (chia, flax, pumpkin, sunflower) and agricultural crop seeds. It uses airtight, moisture-proof laminated films to preserve seed viability, nutritional value, and freshness during storage, transit, and retail display."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Who is the best seeds packaging manufacturer in Delhi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Pooja Packaging Industries is a trusted seeds packaging manufacturer in Delhi, offering custom-printed, airtight pouches for superfood seed brands, ayurvedic companies, and agricultural seed suppliers — with low MOQ, bulk wholesale pricing, and pan-India delivery."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What types of seeds packaging pouches are available?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Common seeds packaging options include zipper resealable pouches, stand-up pouches, flat bottom pouches, aluminium foil pouches, transparent window pouches, agricultural seed packets, side gusset pouches, and eco-friendly kraft pouches — suited for edible superfoods, cooking seeds, and agricultural crop seeds."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What material is best for seeds packaging?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Seeds packaging pouches are made from food-grade multilayer laminated films such as BOPP, PET, aluminium foil, and LDPE combinations. Aluminium foil provides the highest moisture and UV barrier for long shelf-life seeds, while transparent BOPP films are preferred for window pouches that showcase seed quality."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can seeds packaging pouches be used for agricultural seeds?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Pooja Packaging Industries manufactures specialised agricultural seed pouches with heavy-duty moisture-proof films, custom printing for crop variety details, germination rates, and sowing instructions — suitable for vegetable seeds, flower seeds, and hybrid crop seeds supplied to farmers and nurseries."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What sizes are available for seeds packaging pouches?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Seeds packaging pouches are available in sizes from 50g, 100g, 250g, 500g to 1kg and bulk sizes, depending on the seed type and market (retail superfood vs. agricultural distribution). Custom sizes can be manufactured as per your product and SKU requirement."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I get eco-friendly seeds packaging for organic seed brands?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Pooja Packaging Industries offers eco-friendly kraft paper combined with laminated film pouches, giving an organic and natural look preferred by health-conscious consumers and certified organic seed brands — available with custom printing and resealable zipper options."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I get custom printed seed pouches in Delhi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Pooja Packaging Industries offers fully custom printed seeds packaging in Delhi with brand logo, seed variety, net weight, nutritional facts, organic certifications, usage instructions, and FSSAI details — in matte, gloss, metallic, or kraft finish as per your brand positioning."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the minimum order quantity for seeds packaging pouches?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "MOQ varies by pouch type, size, and printing complexity. Pooja Packaging Industries offers flexible low MOQ for new health food and superfood seed brands, along with competitive bulk wholesale pricing for large agricultural seed companies and established health food brands."
+                    }
+                }
+
+
+            ],
+        },
     },
     {
         slug: "atta-pouch-manufacturer",
