@@ -6,7 +6,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section className="bg-[#1E2126] -mt-[100px] pt-[100px] relative z-[3]">
+    <section className="bg-[#1E2126] -mt-[100px] pt-[100px] relative z-[2]">
       <div className="mx-auto w-[80%] grid md:grid-cols-2 lg:grid-cols-3 py-20">
         <div>
           <Image src="/logo.png" alt="logo" width={100} height={100} className="object-contain"/>

@@ -2,13 +2,18 @@
 
 import { useState } from "react";
 
-export default function ProductFAQ({ faq }) {
+export default function ProductFAQ({ faq = [] }) {
   const [openFaq, setOpenFaq] = useState(null);
+
+  // Agar FAQ nahi hai to kuch mat dikhao
+  if (!faq || faq.length === 0) {
+    return null;
+  }
 
   return (
     <section className="mt-10">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold text-[#1E2126] mb-10">
+        <h2 className="text-3xl font-bold text-[#1E2126] mb-10">
           Frequently Asked Questions
         </h2>
 
@@ -24,7 +29,7 @@ export default function ProductFAQ({ faq }) {
                 }
                 className="w-full flex justify-between items-center p-6"
               >
-                <span className="text-xl font-semibold">
+                <span className="text-lg font-semibold">
                   {item.question}
                 </span>
 

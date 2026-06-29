@@ -33,6 +33,12 @@ const category = [
     href: "/products/atta-pouch-manufacturer",
   },
   {
+    image: "/images/home/blog2.png",
+    alt: "Zipper Pouch",
+    name: "Zipper Pouch",
+    href: "/products/standy-zipper-pouch",
+  },
+  {
     image: "/images/home/rice-category.png",
     alt: "Rice packaging",
     name: "Rice Packaging",

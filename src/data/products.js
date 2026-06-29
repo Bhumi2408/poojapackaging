@@ -11,15 +11,42 @@ export const products = [
         },
 
         images: [
-            "/images/pu-foam-sheet/pu1.jpeg",
-            "/images/pu-foam-sheet/pu2.jpeg",
-            "/images/pu-foam-sheet/pu3.jpeg",
-            "/images/pu-foam-sheet/pu4.jpeg",
-            "/images/pu-foam-sheet/pu5.jpeg",
-            "/images/pu-foam-sheet/pu6.jpeg",
-            "/images/pu-foam-sheet/pu7.jpeg",
-            "/images/pu-foam-sheet/pu8.jpeg",
-            "/images/pu-foam-sheet/pu9.jpeg",
+            {
+                image: "/images/pu-foam-sheet/pu1.jpeg",
+                alt: "pu foam sheet packaging"
+            },
+            {
+                image: "/images/pu-foam-sheet/pu2.jpeg",
+                alt: "PU Foam Sheet Packaging Manufacturer in Delhi"
+            },
+            {
+                image: "/images/pu-foam-sheet/pu3.jpeg",
+                alt: "pu foam sheet packaging"
+            },
+            {
+                image: "/images/pu-foam-sheet/pu4.jpeg",
+                alt: "pu foam sheet packaging"
+            },
+            {
+                image: "/images/pu-foam-sheet/pu5.jpeg",
+                alt: "pu foam sheet packaging"
+            },
+            {
+                image: "/images/pu-foam-sheet/pu6.jpeg",
+                alt: "pu foam sheet packaging"
+            },
+            {
+                image: "/images/pu-foam-sheet/pu7.jpeg",
+                alt: "pu foam sheet packaging"
+            },
+            {
+                image: "/images/pu-foam-sheet/pu8.jpeg",
+                alt: "pu foam sheet packaging"
+            },
+            {
+                image: "/images/pu-foam-sheet/pu9.jpeg",
+                alt: "pu foam sheet packaging"
+            },
         ],
 
         content: [
@@ -30,7 +57,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Looking for a reliable PU foam sheet <strong>packaging manufacturer in Delhi</strong>? Pooja Packaging Industries specializes in manufacturing durable, high-quality PU foam sheet packaging for mattress brands, pillow manufacturers, furniture companies, and industrial product suppliers across India.",
+                text: "Looking for a reliable <a href='/contact-us'><strong>PU foam sheet packaging manufacturer in Delhi</strong></a>? Pooja Packaging Industries specializes in manufacturing durable, high-quality PU foam sheet packaging for mattress brands, pillow manufacturers, furniture companies, and industrial product suppliers across India.",
             },
 
             {
@@ -151,13 +178,13 @@ export const products = [
             },
 
             {
-                type: "h3",
+                type: "h5",
                 text: "Get Custom PU Foam Sheet Packaging — Made in Delhi",
             },
 
             {
                 type: "paragraph",
-                text: "Whether you're a mattress brand, pillow manufacturer, or foam supplier, Pooja Packaging Industries delivers packaging that protects your product and promotes your brand.",
+                text: "Whether you're a mattress brand, pillow manufacturer, or foam supplier, <a href='/'><strong>Pooja Packaging Industries</strong></a> delivers packaging that protects your product and promotes your brand.",
             },
 
             {
@@ -291,7 +318,7 @@ export const products = [
     {
         slug: "pvc-sheet",
         name: "PVC Sheet",
-        title: "PVC Sheet",
+        title: "PVC Sheet Manufacturer",
 
         seo: {
             title: "PVC Sheet Manufacturer in Delhi | PVC Packaging Sheet — Pooja Packaging Industries",
@@ -300,12 +327,30 @@ export const products = [
         },
 
         images: [
-            "/images/pvc-sheet/pvc1.png",
-            "/images/pvc-sheet/pvc2.jpg",
-            "/images/pvc-sheet/pvc3.webp",
-            "/images/pvc-sheet/pvc4.webp",
-            "/images/pvc-sheet/pvc5.jpeg",
-            "/images/pvc-sheet/pvc6.jpeg",
+            {
+                image: "/images/pvc-sheet/pvc1.png",
+                alt: "PVC Sheet"
+            },
+            {
+                image: "/images/pvc-sheet/pvc2.jpg", 
+                alt: "PVC Sheet Manufacturer in Delhi"
+            },
+            {
+                image: "/images/pvc-sheet/pvc3.webp", 
+                alt: "PVC Sheet"
+            },
+            {
+                image: "/images/pvc-sheet/pvc4.webp", 
+                alt: "PVC Sheet"
+            },
+            {
+                image: "/images/pvc-sheet/pvc5.jpeg", 
+                alt: "PVC Sheet"
+            },
+            {
+                image: "/images/pvc-sheet/pvc6.jpeg", 
+                alt: "PVC Sheet"
+            },
         ],
 
         content: [
@@ -316,7 +361,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Searching for a trusted <strong>PVC sheet manufacturer in Delhi</strong>? Pooja Packaging Industries manufactures premium-quality, transparent, and durable PVC packaging sheets for mattress brands, pillow manufacturers, furniture companies, garment exporters, and industrial product suppliers across India.",
+                text: "Searching for a trusted <a href='/contact-us'><strong>PVC sheet manufacturer in Delhi</strong></a>? Pooja Packaging Industries manufactures premium-quality, transparent, and durable PVC packaging sheets for mattress brands, pillow manufacturers, furniture companies, garment exporters, and industrial product suppliers across India.",
             },
 
             {
@@ -449,7 +494,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Whether you need transparent PVC rolls for mattress packaging or custom printed PVC sheets for retail branding, Pooja Packaging Industries delivers the right solution.",
+                text: "Whether you need transparent PVC rolls for mattress packaging or custom printed PVC sheets for retail branding, <a href='/contact-us'><strong>Pooja Packaging Industries</strong></a> delivers the right solution.",
             },
 
             {
@@ -593,31 +638,106 @@ export const products = [
         },
 
         images: [
-            "/images/food-packaging/food1.png",
-            "/images/food-packaging/food2.png",
-            "/images/food-packaging/food3.png",
-            "/images/food-packaging/food4.png",
-            "/images/food-packaging/food5.png",
-            "/images/food-packaging/food6.png",
-            "/images/food-packaging/food7.png",
-            "/images/food-packaging/food8.png",
-            "/images/food-packaging/food9.png",
-            "/images/food-packaging/food10.png",
-            "/images/food-packaging/food11.png",
-            "/images/food-packaging/food12.png",
-            "/images/food-packaging/food13.png",
-            "/images/food-packaging/food14.png",
-            "/images/food-packaging/food15.png",
-            "/images/food-packaging/food16.png",
-            "/images/food-packaging/food17.png",
-            "/images/food-packaging/food18.png",
-            "/images/food-packaging/food19.png",
-            "/images/food-packaging/food20.png",
-            "/images/food-packaging/food21.png",
-            "/images/food-packaging/food22.jpeg",
-            "/images/food-packaging/food23.jpeg",
-            "/images/food-packaging/food24.jpeg",
-            "/images/food-packaging/food25.png",
+            {
+                image:"/images/food-packaging/food1.png",
+                alt:"Customized Pouch Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food2.png",
+                alt:"Printed Pouch Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food3.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food4.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food5.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food6.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food7.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food8.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food9.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food10.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food11.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food12.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food13.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food14.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food15.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food16.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food17.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food18.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food19.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food20.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food21.png",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food22.jpeg",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food23.jpeg",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food24.jpeg",
+                alt:"Food Packaging Manufacturer"
+            },
+            {
+                image:"/images/food-packaging/food25.png",
+                alt:"Food Packaging Manufacturer"
+            },
         ],
 
         content: [
@@ -628,7 +748,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Looking for a reliable <strong>food packaging manufacturer in Delhi</strong>? Pooja Packaging Industries is a leading <strong>printed pouch manufacturer</strong> andCustomised Pouch Manufacturer  <strong>customised pouch manufacturer</strong> delivering high-quality, FSSAI-compliant food packaging solutions for FMCG brands, food startups, and retail businesses across India.",
+                text: "Looking for a reliable <strong>food packaging manufacturer in Delhi</strong>? Pooja Packaging Industries is a leading <a href='/products/rice-packaging'><strong>printed pouch manufacturer</strong></a> and <a href='/products/snacks-packaging'><strong>customised pouch manufacturer</strong></a> delivering high-quality, FSSAI-compliant food packaging solutions for FMCG brands, food startups, and retail businesses across India.",
             },
 
             {
@@ -773,7 +893,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Whether you're launching a new food brand or upgrading your existing packaging, Pooja Packaging Industries is your one-stop <strong>customised pouch manufacturer in Delhi</strong> — from concept to bulk delivery.",
+                text: "Whether you're launching a new food brand or upgrading your existing packaging, <a href='/'><strong>Pooja Packaging Industries</strong></a> is your one-stop <strong>customised pouch manufacturer in Delhi</strong> — from concept to bulk delivery.",
             },
 
             {
@@ -944,12 +1064,30 @@ export const products = [
         },
 
         images: [
-            "/images/rice-packaging/rice.png",
-            "/images/rice-packaging/rice1.png",
-            "/images/rice-packaging/rice2.png",
-            "/images/rice-packaging/rice3.png",
-            "/images/rice-packaging/rice5.png",
-            "/images/rice-packaging/rice6.png",
+            {
+                image:"/images/rice-packaging/rice.png",
+                alt:"Rice Packaging Manufacturer"
+            },
+            {
+                image:"/images/rice-packaging/rice1.png",
+                alt:"Rice Packaging Manufacturer"
+            },
+            {
+                image:"/images/rice-packaging/rice2.png",
+                alt:"Rice Packaging Manufacturer"
+            },
+            {
+                image:"/images/rice-packaging/rice3.png",
+                alt:"Rice Packaging Manufacturer"
+            },
+            {
+                image:"/images/rice-packaging/rice5.png",
+                alt:"Rice Packaging Manufacturer"
+            },
+            {
+                image:"/images/rice-packaging/rice6.png",
+                alt:"Rice Packaging Manufacturer"
+            },
         ],
 
         content: [
@@ -960,7 +1098,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Searching for a trusted rice packaging manufacturer in Delhi? Pooja Packaging Industries delivers premium-quality, durable, and custom-printed rice packaging pouches and bags for rice mills, basmati brands, private label businesses, and FMCG companies across India.",
+                text: "Searching for a trusted <a href='/contact-us'><strong>rice packaging manufacturer in Delhi</strong></a>? Pooja Packaging Industries delivers premium-quality, durable, and custom-printed rice packaging pouches and bags for rice mills, basmati brands, private label businesses, and FMCG companies across India.",
             },
 
             {
@@ -1042,7 +1180,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Whether you're launching a new rice brand or scaling your existing product line, Pooja Packaging Industries offers complete rice packaging solutions — from design to bulk delivery.",
+                text: "Whether you're launching a new rice brand or scaling your existing product line, <a href='/'><strong>Pooja Packaging Industries</strong></a> offers complete rice packaging solutions — from design to bulk delivery.",
             },
 
             {
@@ -1185,12 +1323,30 @@ export const products = [
         },
 
         images: [
-            "/images/spices-packaging/spice1.png",
-            "/images/spices-packaging/spice2.png",
-            "/images/spices-packaging/spice3.png",
-            "/images/spices-packaging/spice4.png",
-            "/images/spices-packaging/spice5.png",
-            "/images/spices-packaging/spice6.jpeg",
+            {
+                image:"/images/spices-packaging/spice1.png",
+                alt: "Spices Pouch Manufacturer"
+            },
+            {
+                image:"/images/spices-packaging/spice2.png",
+                alt: "Spices Pouch Manufacturer"
+            },
+            {
+                image:"/images/spices-packaging/spice3.png",
+                alt: "Spices Pouch Manufacturer"
+            },
+            {
+                image:"/images/spices-packaging/spice4.png",
+                alt: "Spices Pouch Manufacturer"
+            },
+            {
+                image:"/images/spices-packaging/spice5.png",
+                alt: "Spices Pouch Manufacturer"
+            },
+            {
+                image:"/images/spices-packaging/spice6.jpeg",
+                alt: "Spices Pouch Manufacturer"
+            },
         ],
 
         content: [
@@ -1201,7 +1357,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Searching for a reliable <strong>spices pouch manufacturer in Delhi</strong>? Pooja Packaging Industries specializes in manufacturing premium-quality, airtight, and beautifully printed spice pouches for spice brands, masala manufacturers, private label businesses, and FMCG companies across India.",
+                text: "Searching for a reliable <a href='/contact-us'><strong>spices pouch manufacturer in Delhi</strong></a>? Pooja Packaging Industries specializes in manufacturing premium-quality, airtight, and beautifully printed spice pouches for spice brands, masala manufacturers, private label businesses, and FMCG companies across India.",
             },
 
             {
@@ -1324,7 +1480,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Whether you're launching a new spice brand or scaling your masala product line, Pooja Packaging Industries delivers end-to-end flexible packaging solutions — from design to bulk delivery.",
+                text: "Whether you're launching a new spice brand or scaling your masala product line, <a href='/'><strong>Pooja Packaging Industries</strong></a> delivers end-to-end flexible packaging solutions — from design to bulk delivery.",
             },
 
             {
@@ -1483,13 +1639,34 @@ export const products = [
         },
 
         images: [
-            "/images/tea-packaging/tea.png",
-            "/images/tea-packaging/tea2.png",
-            "/images/tea-packaging/tea3.png",
-            "/images/tea-packaging/tea4.png",
-            "/images/tea-packaging/tea6.png",
-            "/images/tea-packaging/tea7.png",
-            "/images/tea-packaging/tea8.png",
+            {
+                image:"/images/tea-packaging/tea.png",
+                alt: "Tea Packaging Pouch Manufacturer"
+            },
+            {
+                image:"/images/tea-packaging/tea2.png",
+                alt: "Chai patti Packing Pouch Wholesale"
+            },
+            {
+                image:"/images/tea-packaging/tea3.png",
+                alt: "Readymade Tea Packaging Pouch"
+            },
+            {
+                image:"/images/tea-packaging/tea4.png",
+                alt: "Tea Packaging Manufacturer"
+            },
+            {
+                image:"/images/tea-packaging/tea6.png",
+                alt: "Tea Packaging Manufacturer"
+            },
+            {
+                image:"/images/tea-packaging/tea7.png",
+                alt: "Tea Packaging Manufacturer"
+            },
+            {
+                image:"/images/tea-packaging/tea8.png",
+                alt: "Tea Packaging Manufacturer"
+            },
         ],
 
         content: [
@@ -1500,7 +1677,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Looking for a trusted <strong>tea packaging pouch manufacturer in Delhi</strong>? Pooja Packaging Industries manufactures premium-quality, airtight, and beautifully printed <strong>chai patti packing pouches</strong> for tea brands, masala chai manufacturers, tea wholesalers, and private label businesses across India.",
+                text: "Looking for a trusted <a href='/contact-us'><strong>tea packaging pouch manufacturer in Delhi</strong></a>? Pooja Packaging Industries manufactures premium-quality, airtight, and beautifully printed <strong>chai patti packing pouches</strong> for tea brands, masala chai manufacturers, tea wholesalers, and private label businesses across India.",
             },
 
             {
@@ -1592,7 +1769,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Whether you're a new chai brand, an established tea manufacturer, or a wholesale distributor, Pooja Packaging Industries is your go-to <strong>tea packaging pouch manufacturer</strong> in Delhi.",
+                text: "Whether you're a new chai brand, an established tea manufacturer, or a wholesale distributor, <a href='/'><strong>Pooja Packaging Industries</strong></a> is your go-to <strong>tea packaging pouch manufacturer</strong> in Delhi.",
             },
 
             {
@@ -1751,14 +1928,38 @@ export const products = [
         },
 
         images: [
-            "/images/snacks-packaging/snack1.png",
-            "/images/snacks-packaging/snack2.png",
-            "/images/snacks-packaging/snack3.png",
-            "/images/snacks-packaging/snack4.png",
-            "/images/snacks-packaging/snack5.png",
-            "/images/snacks-packaging/snack6.png",
-            "/images/snacks-packaging/snack7.webp",
-            "/images/snacks-packaging/snack8.jpeg",
+            {
+                image:"/images/snacks-packaging/snack1.png",
+                alt: "Snacks Packaging Pouch Manufacturer"
+            },
+            {
+                image:"/images/snacks-packaging/snack2.png",
+                alt: "Printed snacks Pouch Manufacturer"
+            },
+            {
+                image:"/images/snacks-packaging/snack3.png",
+                alt: "Snacks packaging pouch wholesale"
+            },
+            {
+                image:"/images/snacks-packaging/snack4.png",
+                alt: "Snacks Packaging Manufacturer"
+            },
+            {
+                image:"/images/snacks-packaging/snack5.png",
+                alt: "Snacks Packaging Manufacturer"
+            },
+            {
+                image:"/images/snacks-packaging/snack6.png",
+                alt: "Snacks Packaging Manufacturer"
+            },
+            {
+                image:"/images/snacks-packaging/snack7.webp",
+                alt: "Snacks Packaging Manufacturer"
+            },
+            {
+                image:"/images/snacks-packaging/snack8.jpeg",
+                alt: "Snacks Packaging Manufacturer"
+            },
         ],
 
         content: [
@@ -1774,7 +1975,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "As a trusted <strong>snacks packaging pouch manufacturer in Delhi</strong>, we help namkeen brands, chips manufacturers, bhujia sellers, dry fruit businesses, and snack startups build packaging that looks great, stays fresh, and sells fast."
+                text: "As a trusted <a href='/contact-us'><strong>snacks packaging pouch manufacturer in Delhi</strong></a>, we help namkeen brands, chips manufacturers, bhujia sellers, dry fruit businesses, and snack startups build packaging that looks great, stays fresh, and sells fast."
             },
 
             {
@@ -1922,7 +2123,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "From a 10g sachet to a 1kg party pack — we manufacture <strong>snacks packaging pouches</strong> in every size, every style, and every budget. Let's create packaging your customers can't resist picking up.",
+                text: "From a 10g sachet to a 1kg party pack — we manufacture <a href='/'><strong>snacks packaging pouches</strong></a> in every size, every style, and every budget. Let's create packaging your customers can't resist picking up.",
             },
 
             {
@@ -2096,19 +2297,58 @@ export const products = [
         },
 
         images: [
-            "/images/seeds-packaging/seed1.png",
-            "/images/seeds-packaging/seed2.png",
-            "/images/seeds-packaging/seed3.png",
-            "/images/seeds-packaging/seed4.webp",
-            "/images/seeds-packaging/seed5.png",
-            "/images/seeds-packaging/seed6.png",
-            "/images/seeds-packaging/seed7.png",
-            "/images/seeds-packaging/seed8.png",
-            "/images/seeds-packaging/seed9.png",
-            "/images/seeds-packaging/seed10.png",
-            "/images/seeds-packaging/seed11.png",
-            "/images/seeds-packaging/seed12.png",
-            "/images/seeds-packaging/seed13.png",
+            {
+                image:"/images/seeds-packaging/seed1.png",
+                alt:"Seeds Packaging Pouch"
+            },
+            {
+                image:"/images/seeds-packaging/seed2.png",
+                alt:"Seeds Packaging Pouch Manufacturer"
+            },
+            {
+                image:"/images/seeds-packaging/seed3.png",
+                alt:"Seeds Packaging Pouch"
+            },
+            {
+                image:"/images/seeds-packaging/seed4.webp",
+                alt:"Seeds Packaging Pouch"
+            },
+            {
+                image:"/images/seeds-packaging/seed5.png",
+                alt:"Seeds Packaging Pouch"
+            },
+            {
+                image:"/images/seeds-packaging/seed6.png",
+                alt:"Seeds Packaging Pouch"
+            },
+            {
+                image:"/images/seeds-packaging/seed7.png",
+                alt:"Seeds Packaging Pouch"
+            },
+            {
+                image:"/images/seeds-packaging/seed8.png",
+                alt:"Seeds Packaging Pouch"
+            },
+            {
+                image:"/images/seeds-packaging/seed9.png",
+                alt:"Seeds Packaging Pouch"
+            },
+            {
+                image:"/images/seeds-packaging/seed10.png",
+                alt:"Seeds Packaging Pouch"
+            },
+            {
+                image:"/images/seeds-packaging/seed11.png",
+                alt:"Seeds Packaging Pouch"
+            },
+            {
+                image:"/images/seeds-packaging/seed12.png",
+                alt:"Seeds Packaging Pouch"
+            },
+            {
+                image:"/images/seeds-packaging/seed13.png",
+                alt:"Seeds Packaging Pouch"
+            },
         ],
 
         content: [
@@ -2124,7 +2364,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Pooja Packaging Industries is a trusted <strong>seeds packaging manufacturer in Delhi<strong/>, delivering custom-printed, airtight, and durable seed pouches for superfood brands, ayurvedic companies, agricultural seed suppliers, and health food businesses across India."
+                text: "Pooja Packaging Industries is a trusted <a href='/contact-us'><strong>seeds packaging manufacturer in Delhi<strong/></a>, delivering custom-printed, airtight, and durable seed pouches for superfood brands, ayurvedic companies, agricultural seed suppliers, and health food businesses across India."
             },
 
             {
@@ -2262,7 +2502,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "From a 50g superfood seed pouch to a 5kg agricultural seed bag — Pooja Packaging Industries manufactures seeds packaging that protects your product, tells your brand story, and wins on the shelf.",
+                text: "From a 50g superfood seed pouch to a 5kg agricultural seed bag — <a href='/'><strong>Pooja Packaging Industries</strong></a> manufactures seeds packaging that protects your product, tells your brand story, and wins on the shelf.",
             },
 
             {
@@ -2420,17 +2660,50 @@ export const products = [
         },
 
         images: [
-            "/images/flour-packaging/flour1.png",
-            "/images/flour-packaging/flour2.png",
-            "/images/flour-packaging/flour3.png",
-            "/images/flour-packaging/flour4.png",
-            "/images/flour-packaging/flour5.png",
-            "/images/flour-packaging/flour6.webp",
-            "/images/flour-packaging/flour7.png",
-            "/images/flour-packaging/flour8.webp",
-            "/images/flour-packaging/flour9.png",
-            "/images/flour-packaging/flour10.png",
-            "/images/flour-packaging/flour11.png",
+            {
+                image:"/images/flour-packaging/flour1.png",
+                alt:"Atta Pouch Manufacturer"
+            },
+            {
+                image:"/images/flour-packaging/flour2.png",
+                alt:"Atta Pouch Manufacturer in Delhi"
+            },
+            {
+                image:"/images/flour-packaging/flour3.png",
+                alt:"Flour Pouch manufacturer"
+            },
+            {
+                image:"/images/flour-packaging/flour4.png",
+                alt:"Flour Packaging Manufacturer"
+            },
+            {
+                image:"/images/flour-packaging/flour5.png",
+                alt:"Flour Packaging Manufacturer"
+            },
+            {
+                image:"/images/flour-packaging/flour6.webp",
+                alt:"Flour Packaging Manufacturer"
+            },
+            {
+                image:"/images/flour-packaging/flour7.png",
+                alt:"Flour Packaging Manufacturer"
+            },
+            {
+                image:"/images/flour-packaging/flour8.webp",
+                alt:"Flour Packaging Manufacturer"
+            },
+            {
+                image:"/images/flour-packaging/flour9.png",
+                alt:"Flour Packaging Manufacturer"
+            },
+            {
+                image:"/images/flour-packaging/flour10.png",
+                alt:"Flour Packaging Manufacturer"
+            },
+            {
+                image:"/images/flour-packaging/flour11.png",
+                alt:"Flour Packaging Manufacturer"
+            },
         ],
 
         content: [
@@ -2441,7 +2714,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Looking for a trusted <strong>atta pouch manufacturer in Delhi</strong>? Pooja Packaging Industries delivers premium-quality, food-grade <strong>flour packaging pouches</strong> for atta brands, flour mills, chakki owners, private label businesses, and FMCG companies across India.",
+                text: "Looking for a trusted <a href='/products/food-packaging'><strong>atta pouch manufacturer in Delhi</strong></a>? Pooja Packaging Industries delivers premium-quality, food-grade <strong>flour packaging pouches</strong> for atta brands, flour mills, chakki owners, private label businesses, and FMCG companies across India.",
             },
 
             {
@@ -2451,7 +2724,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Atta and flour are moisture-sensitive products. Poor packaging leads to pest infestation, clumping, and loss of freshness — directly affecting your brand reputation. A high-quality <strong>atta pouch</strong> ensures:",
+                text: "Atta and flour are moisture-sensitive products. Poor packaging leads to pest infestation, clumping, and loss of freshness — directly affecting your brand reputation. A high-quality <a href='/contact-us'><strong>atta pouch</strong></a> ensures:",
             },
 
             {
@@ -2492,7 +2765,7 @@ export const products = [
             },
             {
                 type: "paragraph",
-                text: "At Pooja Packaging Industries, we offer a complete range of <strong>flour packaging solutions:</strong>",
+                text: "At Pooja Packaging Industries, we offer a complete range of <a href='/products/rice-packaging'><strong>flour packaging solutions:</strong></a>",
             },
 
             {
@@ -2559,7 +2832,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Launching a new atta brand or upgrading your flour packaging? Pooja Packaging Industries offers complete flexible packaging solutions — from design to bulk delivery.",
+                text: "Launching a new atta brand or upgrading your flour packaging? <a href='/'><strong>Pooja Packaging Industries</strong></a> offers complete flexible packaging solutions — from design to bulk delivery.",
             },
 
             {
@@ -2722,17 +2995,50 @@ export const products = [
         },
 
         images: [
-            "/images/detergent/detergent1.png",
-            "/images/detergent/detergent2.png",
-            "/images/detergent/detergent3.png",
-            "/images/detergent/detergent4.png",
-            "/images/detergent/detergent5.jpeg",
-            "/images/detergent/detergent6.jpeg",
-            "/images/detergent/detergent7.jpeg",
-            "/images/detergent/detergent8.jpeg",
-            "/images/detergent/detergent9.jpeg",
-            "/images/detergent/detergent10.png",
-            "/images/detergent/detergent11.jpeg",
+            {
+                image:"/images/detergent/detergent1.png",
+                alt: "Detergent Pouch Manufacturer"
+            },
+            {
+                image:"/images/detergent/detergent2.png",
+                alt: "Detergent Pouch Manufacturer in Delhi"
+            },
+            {
+                image:"/images/detergent/detergent3.png",
+                alt: "Detergent Pouch Manufacturer"
+            },
+            {
+                image:"/images/detergent/detergent4.png",
+                alt: "Detergent Pouch Manufacturer"
+            },
+            {
+                image:"/images/detergent/detergent5.jpeg",
+                alt: "Detergent Pouch Manufacturer"
+            },
+            {
+                image:"/images/detergent/detergent6.jpeg",
+                alt: "Detergent Pouch Manufacturer"
+            },
+            {
+                image:"/images/detergent/detergent7.jpeg",
+                alt: "Detergent Pouch Manufacturer"
+            },
+            {
+                image:"/images/detergent/detergent8.jpeg",
+                alt: "Detergent Pouch Manufacturer"
+            },
+            {
+                image:"/images/detergent/detergent9.jpeg",
+                alt: "Detergent Pouch Manufacturer"
+            },
+            {
+                image:"/images/detergent/detergent10.png",
+                alt: "Detergent Pouch Manufacturer"
+            },
+            {
+                image:"/images/detergent/detergent11.jpeg",
+                alt: "Detergent Pouch Manufacturer"
+            },
         ],
 
         content: [
@@ -2743,7 +3049,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Looking for a reliable <strong>detergent pouch manufacturer in Delhi</strong>? Pooja Packaging Industries is your trusted packaging partner — delivering high-quality, durable, and customizable detergent pouches to FMCG brands, detergent manufacturers, and private label businesses across India.",
+                text: "Looking for a reliable <a href='/contact-us'><strong>detergent pouch manufacturer in Delhi</strong></a>? Pooja Packaging Industries is your trusted packaging partner — delivering high-quality, durable, and customizable detergent pouches to FMCG brands, detergent manufacturers, and private label businesses across India.",
             },
 
             {
@@ -2753,7 +3059,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "In today's competitive FMCG market, packaging is more than protection — it's your brand's first impression. <strong>Detergent pouches</strong> have rapidly replaced traditional boxes and rigid containers because they are:",
+                text: "In today's competitive FMCG market, packaging is more than protection — it's your brand's first impression. <a href='/products'><strong>Detergent pouches</strong></a> have rapidly replaced traditional boxes and rigid containers because they are:",
             },
 
             {
@@ -2852,7 +3158,7 @@ export const products = [
 
             {
                 type: "paragraph",
-                text: "Whether you're launching a new detergent brand or scaling your existing product line, Pooja Packaging Industries offers end-to-end packaging solutions — from design to delivery.",
+                text: "Whether you're launching a new detergent brand or scaling your existing product line, <a href='/'><strong>Pooja Packaging Industries</strong></a> offers end-to-end packaging solutions — from design to delivery.",
             },
 
             {
@@ -2984,30 +3290,72 @@ export const products = [
     },
     {
         slug: "mattress",
-
-        title: "Mattress",
+        name: "Mattress",
+        title: "Mattress Packaging",
 
         seo: {
-            title: "",
-            description: "",
-            keywords: [],
+            title: "Mattress Packaging Solution & Mattress Bags Manufacturer in Delhi | Pooja Packaging Industries",
+            description: " Mattress Packaging Solution & Mattress Bags Manufacturer in Delhi — Pooja Packaging Industries. Custom printed, heavy-duty LDPE bags for all mattress sizes. Bulk orders available. Get a free quote!",
+            keywords: ["Mattress Bags Manufacturer in Delhi", "Mattress Packaging"],
         },
 
         images: [
-            "/images/mattress/mattress.jpeg",
-            "/images/mattress/mattress1.jpeg",
-            "/images/mattress/mattress3.jpeg",
-            "/images/mattress/mattress4.jpeg",
-            "/images/mattress/mattress5.jpeg",
-            "/images/mattress/mattress6.jpeg",
-            "/images/mattress/mattress7.jpeg",
-            "/images/mattress/mattress8.png",
-            "/images/mattress/mattress9.jpeg",
-            "/images/mattress/mattress10.jpeg",
-            "/images/mattress/mattress11.jpeg",
-            "/images/mattress/mattress12.jpeg",
-            "/images/mattress/mattress13.jpeg",
-            "/images/mattress/mattress14.png",
+            {
+                image:"/images/mattress/mattress.jpeg",
+                alt: "Mattress Bags Manufaturer"
+            },
+            {
+                image:"/images/mattress/mattress1.jpeg",
+                alt: "Mattress Bags Manufacturer in Delhi"
+            },
+            {
+                image:"/images/mattress/mattress3.jpeg",
+                alt: "Mattress Packaging"
+            },
+            {
+                image:"/images/mattress/mattress4.jpeg",
+                alt: "Mattress Bags Manufaturer"
+            },
+            {
+                image:"/images/mattress/mattress5.jpeg",
+                alt: "Mattress Bags Manufaturer"
+            },
+            {
+                image:"/images/mattress/mattress6.jpeg",
+                alt: "Mattress Bags Manufaturer"
+            },
+            {
+                image:"/images/mattress/mattress7.jpeg",
+                alt: "Mattress Bags Manufaturer"
+            },
+            {
+                image:"/images/mattress/mattress8.png",
+                alt: "Mattress Bags Manufaturer"
+            },
+            {
+                image:"/images/mattress/mattress9.jpeg",
+                alt: "Mattress Bags Manufaturer"
+            },
+            {
+                image:"/images/mattress/mattress10.jpeg",
+                alt: "Mattress Bags Manufaturer"
+            },
+            {
+                image:"/images/mattress/mattress11.jpeg",
+                alt: "Mattress Bags Manufaturer"
+            },
+            {
+                image:"/images/mattress/mattress12.jpeg",
+                alt: "Mattress Bags Manufaturer"
+            },
+            {
+                image:"/images/mattress/mattress13.jpeg",
+                alt: "Mattress Bags Manufaturer"
+            },
+            {
+                image:"/images/mattress/mattress14.png",
+                alt: "Mattress Bags Manufaturer"
+            },
         ],
 
         content: [],
@@ -3015,48 +3363,717 @@ export const products = [
     },
     {
         slug: "pillow",
-
-        title: "Pillow",
+        name: "Pillow",
+        title: "Pillow Packaging",
 
         seo: {
-            title: "",
-            description: "",
-            keywords: [],
+            title: "Pillow Packaging Manufacturer in Delhi | Custom Pillow Cover Bags",
+            description: "Pillow Packaging Manufacturer in Delhi — Pooja Packaging Industries. Custom printed LDPE pillow cover bags, bulk & wholesale orders. Get a free quote!",
+            keywords: ["Pillow Packaging Manufacturer", "Custom Pillow Cover Bags"],
         },
 
         images: [
-            "/images/pillow/pillow1.jpeg",
-            "/images/pillow/pillow2.jpeg",
-            "/images/pillow/pillow3.jpeg",
-            "/images/pillow/pillow4.jpeg",
-            "/images/pillow/pillow5.png",
+            {
+                image:"/images/pillow/pillow1.jpeg",
+                alt: "Pillow Packaging Manufacturer"
+            },
+            {
+                image:"/images/pillow/pillow2.jpeg",
+                alt: "Custom Pillow Cover Bags"
+            },
+            {
+                image:"/images/pillow/pillow3.jpeg",
+                alt: "Pillow Packaging Manufacturer"
+            },
+            {
+                image:"/images/pillow/pillow4.jpeg",
+                alt: "Pillow Packaging Manufacturer"
+            },
+            {
+                image:"/images/pillow/pillow5.png",
+                alt: "Pillow Packaging Manufacturer"
+            },
         ],
 
         content: [],
         faq: [],
     },
     {
-        slug: "tubes-packaging",
-
-        title: "Tubes Packaging",
+        slug: "standy-zipper-pouch",
+        name: "Standy Zipper Pouch",
+        title: "Standy Zipper Pouch Manufacturer",
 
         seo: {
-            title: "",
-            description: "",
-            keywords: [],
+            title: "Standy Zipper Pouch Manufacturer & Supplier in Delhi | Pooja Packaging Industries",
+            description: "Standy Zipper Pouch Manufacturer & Supplier in Delhi — Pooja Packaging Industries. Custom printed, resealable stand-up zipper pouches for food, FMCG & retail brands. Bulk orders available. Contact us now!",
+            keywords: ["Standy Zipper Pouch Manufacturer", "Standy Zipper Pouch Supplier"],
         },
 
         images: [
-            "/images/tubes-packaging/tube1.png",
-            "/images/tubes-packaging/tube2.png",
-            "/images/tubes-packaging/tube3.png",
-            "/images/tubes-packaging/tube4.png",
-            "/images/tubes-packaging/tube5.png",
-            "/images/tubes-packaging/tube6.png",
+            {
+                image:"/images/zipper-pouch/zipper1.png",
+                alt: "Standy Zipper Pouch Manufacturer"
+            },
+            {
+                image:"/images/zipper-pouch/zipper2.png",
+                alt: "Standy Zipper Pouch Supplier"
+            },
+            {
+                image:"/images/zipper-pouch/zipper3.png",
+                alt: "Standy Zipper Pouch"
+            },
         ],
 
-        content: [],
-        faq: [],
+        content: [
+            {
+                type: "h2",
+                text: "Standy Zipper Pouch Manufacturer & Supplier in Delhi | Pooja Packaging Industries",
+            },
+
+            {
+                type: "paragraph",
+                text: "Walk into any modern supermarket and look at the snack, dry fruit, or health food aisle — chances are, most premium products are sitting in a <a href='/products/food-packaging'><strong>standy zipper pouch</strong></a>. That's not a coincidence. Stand-up zipper pouches have become the gold standard of retail packaging because they do something no other pouch format can — they stand on their own, reseal themselves, and look premium on any shelf.",
+            },
+
+            {
+                type: "paragraph",
+                text: "Pooja Packaging Industries is a trusted <strong>standy zipper pouch manufacturer and supplier in Delhi</strong>, delivering custom-printed, high-quality resealable stand-up pouches for food brands, FMCG companies, health food startups, and retail businesses across India."
+            },
+
+            {
+                type: "h3",
+                text: "What is a Standy Zipper Pouch?",
+            },
+
+            {
+                type: "paragraph",
+                text: "A standy zipper pouch — also called a stand-up zipper pouch or doypack with zipper — is a flexible packaging format that combines two powerful features:",
+            },
+
+            {
+                type: "features",
+                items: [
+                    {
+                        bold: "Stand-Up Base (Doypack)",
+                        text: " — A gusseted bottom that allows the pouch to stand upright independently on retail shelves, giving maximum brand visibility without any display support."
+                    },
+                    {
+                        bold: "Resealable Zipper Closure",
+                        text: " — A press-lock zipper at the top that allows consumers to open and reseal the pouch multiple times — keeping the product fresh after the first use."
+                    },
+                ],
+            },
+
+            {
+                type: "paragraph",
+                text: "Together, these two features make it the most consumer-friendly and retail-ready flexible packaging format available today.",
+            },
+
+            {
+                type: "h5",
+                text: "Why Standy Zipper Pouches Are the #1 Choice for Premium Brands",
+            },
+
+            {
+                type: "paragraph",
+                text: "In India's fast-growing retail and e-commerce market, packaging directly influences buying decisions. Here's why top brands choose standy zipper pouches:",
+            },
+
+            {
+                type: "features",
+                items: [
+                    {
+                        bold: "Shelf presence",
+                        text: " —  stands upright without support, maximising visibility in crowded retail shelves."
+                    },
+                    {
+                        bold: "Resealability",
+                        text: " — zipper closure keeps product fresh after opening, reducing wastage."
+                    },
+                    {
+                        bold: "360° print surface",
+                        text: " — full front, back, and gusset printing for maximum brand communication."
+                    },
+                    {
+                        bold: "Premium look & feel",
+                        text: " — matte, gloss, or metallic finish gives a high-end brand appearance."
+                    },
+                    {
+                        bold: "Versatile for multiple products",
+                        text: " — works for dry, liquid, powder, and solid products."
+                    },
+                    {
+                        bold: "Consumer convenience",
+                        text: " — easy open, easy reseal — improves repeat purchase rate."
+                    },
+                    {
+                        bold: "Lightweight & space-saving",
+                        text: " — reduces shipping cost compared to rigid packaging."
+                    },
+                ],
+            },
+
+            {
+                type: "h5",
+                text: "Our Standy Zipper Pouch Range",
+            },
+
+            {
+                type: "paragraph",
+                text: "As a specialist <a href='/products'>standy zipper pouch manufacturer in Delhi</a>, we offer:",
+            },
+
+            {
+                type: "features",
+                items: [
+                    {
+                        bold: "Printed Standy Zipper Pouches",
+                        text: " —  full custom brand printing for retail FMCG products."
+                    },
+                    {
+                        bold: "Transparent Window Standy Zipper Pouches",
+                        text: " — show-through window to display product quality."
+                    },
+                    {
+                        bold: "Aluminium Foil Standy Zipper Pouches",
+                        text: " — maximum barrier for coffee, tea, spices & premium food."
+                    },
+                    {
+                        bold: "Kraft Paper Standy Zipper Pouches",
+                        text: " — eco-friendly natural look for organic brands."
+                    },
+                    {
+                        bold: "Matte Finish Standy Zipper Pouches",
+                        text: " — premium soft-touch finish for luxury brand positioning."
+                    },
+                    {
+                        bold: "Glossy Finish Standy Zipper Pouches",
+                        text: " — vibrant high-shine finish for mass retail appeal."
+                    },
+                    {
+                        bold: "Metallic Standy Zipper Pouches",
+                        text: " — eye-catching shelf impact for premium product lines."
+                    },
+                    {
+                        bold: "Child-Resistant Zipper Pouches",
+                        text: " — safety-compliant option for pharmaceutical and supplement brands."
+                    },
+                ],
+            },
+
+            {
+                type: "paragraph",
+                text: "All pouches available in <strong>custom sizes from 50g to 5kg, with tear-notch, euro hole, spout, and custom gusset options.</strong>",
+            },
+
+            {
+                type: "h5",
+                text: "Products Best Suited for Standy Zipper Pouches",
+            },
+
+            {
+                type: "checklist",
+                items: [
+                    "Dry Fruits & Nuts — almonds, cashews, walnuts, raisins, mixed nuts",
+                    "Spices & Masala — whole spices, ground masala, spice blends, seasoning mixes",
+                    "Tea & Coffee — loose leaf tea, chai patti, ground coffee, green tea, herbal blends",
+                    "Seeds & Superfoods — chia seeds, flax seeds, pumpkin seeds, hemp seeds",
+                    "Pet Food — dog treats, cat food, bird feed, fish food",
+                    "Bakery & Confectionery — cookies, granola bars, chocolate-coated nuts, candied fruits",
+                    "Health & Wellness — protein powder, herbal supplements, ayurvedic powders",
+                    " Personal Care — bath salts, scrubs, herbal powders, face packs"
+                ],
+            },
+
+            {
+                type: "h5",
+                text: "Pooja Packaging — Your Standy Zipper Pouch Supplier in Delhi",
+            },
+
+            {
+                type: "paragraph",
+                text: "As a reliable <a href='/contact-us'><strong>standy zipper pouch supplier in Delhi</strong></a>, we don't just manufacture pouches — we help brands create packaging that sells. From choosing the right material and finish to getting your design print-ready for bulk production, our team supports you at every step.",
+            },
+
+            {
+                type: "h5",
+                text: "What makes us the right supplier:",
+            },
+
+            {
+                type: "checklist",
+                items: [
+                    "Based in <strong>Delhi — serving PAN India</strong>",
+                    "<strong> Custom size & print</strong> — from 50g sachets to 5kg bulk packs",
+                    "<strong>Multiple finish options</strong> — matte, gloss, metallic, kraft, transparent",
+                    "<strong>Zipper quality tested </strong> — smooth open-close mechanism, leak-proof seal",
+                    "<strong>FSSAI-compliant food-grade materials</strong> for food and health brands",
+                    "Low MOQ for new brands <strong>+ bulk pricing</strong> for large manufacturers",
+                    "In-house design support — <strong>shelf-ready, print-ready artwork assistance</strong>",
+                    "Fast production with <strong>consistent quality and on-time delivery</strong>",
+                ],
+            },
+
+            {
+                type: "h3",
+                text: "Stand Out on the Shelf — Start With the Right Pouch",
+            },
+
+            {
+                type: "paragraph",
+                text: "Your product's quality deserves packaging that matches it. A standy zipper pouch doesn't just hold your product — it presents it, protects it, and sells it. Let Pooja Packaging Industries help you build packaging that your customers pick up first.",
+            },
+
+            {
+                type: "callout",
+                title: "Contact Us",
+                content:
+                    "📍 Located in Delhi | Delivering Across India\n📞 Contact us today for samples, custom specs & bulk order quotes.",
+            },
+        ],
+
+        faq: [
+            {
+                question: "What is a standy zipper pouch?",
+                answer:
+                    "A standy zipper pouch is a flexible packaging format that combines a gusseted stand-up base (allowing the pouch to stand independently on shelves) with a resealable press-lock zipper closure at the top. It is widely used for premium retail packaging of dry fruits, spices, tea, coffee, seeds, snacks, and health food products.",
+            },
+            {
+                question:
+                    "Who is the best standy zipper pouch manufacturer in Delhi?",
+                answer:
+                    " Pooja Packaging Industries is a leading standy zipper pouch manufacturer in Delhi, offering custom-printed, food-grade resealable stand-up zipper pouches for food brands, FMCG companies, health startups, and retail businesses — with low MOQ, bulk supply, multiple finish options, and pan-India delivery.",
+            },
+            {
+                question: "Who is a reliable standy zipper pouch supplier in Delhi?",
+                answer:
+                    "Pooja Packaging Industries is a trusted standy zipper pouch supplier in Delhi, supplying custom and readymade stand-up zipper pouches to food brands, distributors, private label companies, and FMCG manufacturers across India — with competitive pricing, fast turnaround, and consistent quality.",
+            },
+            {
+                question: "What is the difference between a standy zipper pouch and a regular stand-up pouch?",
+                answer:
+                    "A regular stand-up pouch (doypack) has a gusseted base that allows it to stand upright but is sealed at the top after filling — making it single-use. A standy zipper pouch adds a resealable zipper closure, allowing consumers to open and reseal the pouch multiple times while keeping the product fresh. The zipper significantly improves consumer convenience and product shelf life after opening.",
+            },
+            {
+                question:
+                    "What products are best packed in standy zipper pouches?",
+                answer:
+                    "Standy zipper pouches are ideal for dry fruits, nuts, spices, tea, coffee, seeds, superfoods, healthy snacks, makhana, granola, pet food, protein powder, herbal supplements, bakery products, personal care powders, and any product that benefits from resealable, retail-ready, premium-looking packaging.",
+            },
+            {
+                question:
+                    "What materials are used in standy zipper pouches?",
+                answer:
+                    "Standy zipper pouches are made from food-grade multilayer laminated films such as BOPP, PET, LDPE, aluminium foil, kraft paper, and nylon combinations. The material choice depends on the product's barrier requirement — aluminium foil for maximum freshness protection, transparent BOPP for product visibility, and kraft paper for eco-friendly brand positioning.",
+            },
+            {
+                question: "What finish options are available for standy zipper pouches?",
+                answer:
+                    "Standy zipper pouches are available in matte finish (premium soft-touch look), gloss finish (vibrant high-shine retail appeal), metallic finish (eye-catching premium shelf impact), transparent (product visibility), and kraft paper (eco-friendly organic brand look). Custom combinations like matte front with gloss back are also available.",
+            },
+            {
+                question:
+                    "Can I get custom printed standy zipper pouches in Delhi?",
+                answer:
+                    " Yes. Pooja Packaging Industries offers fully custom printed standy zipper pouches in Delhi with brand logo, product name, ingredients, net weight, MRP, FSSAI number, and nutritional information — printed in up to 10 colours with matte, gloss, or metallic lamination as per your brand requirement.",
+            },
+            {
+                question:
+                    "What sizes are available for standy zipper pouches?",
+                answer:
+                    "Standy zipper pouches are available in a wide range of sizes from small 50g and 100g retail packs to 1kg, 2kg, and 5kg bulk packs. Custom dimensions including width, height, and gusset depth can be manufactured based on your product's weight and retail display requirement.",
+            },
+            {
+                question:
+                    "What is the minimum order quantity for standy zipper pouches?",
+                answer:
+                    "MOQ varies by pouch size, material, and printing complexity. Pooja Packaging Industries offers flexible low MOQ for new brands and startups launching premium products, along with competitive bulk wholesale pricing for established food companies, FMCG manufacturers, and distributors.",
+            },
+        ],
+
+        faqSchema: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+                {
+                    "@type": "Question",
+                    "name": "What is a standy zipper pouch?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "A standy zipper pouch is a flexible packaging format that combines a gusseted stand-up base (allowing the pouch to stand independently on shelves) with a resealable press-lock zipper closure at the top. It is widely used for premium retail packaging of dry fruits, spices, tea, coffee, seeds, snacks, and health food products."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Who is the best standy zipper pouch manufacturer in Delhi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Pooja Packaging Industries is a leading standy zipper pouch manufacturer in Delhi, offering custom-printed, food-grade resealable stand-up zipper pouches for food brands, FMCG companies, health startups, and retail businesses — with low MOQ, bulk supply, multiple finish options, and pan-India delivery."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Who is a reliable standy zipper pouch supplier in Delhi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Pooja Packaging Industries is a trusted standy zipper pouch supplier in Delhi, supplying custom and readymade stand-up zipper pouches to food brands, distributors, private label companies, and FMCG manufacturers across India — with competitive pricing, fast turnaround, and consistent quality."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the difference between a standy zipper pouch and a regular stand-up pouch?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "A regular stand-up pouch (doypack) has a gusseted base that allows it to stand upright but is sealed at the top after filling — making it single-use. A standy zipper pouch adds a resealable zipper closure, allowing consumers to open and reseal the pouch multiple times while keeping the product fresh. The zipper significantly improves consumer convenience and product shelf life after opening."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What products are best packed in standy zipper pouches?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Standy zipper pouches are ideal for dry fruits, nuts, spices, tea, coffee, seeds, superfoods, healthy snacks, makhana, granola, pet food, protein powder, herbal supplements, bakery products, personal care powders, and any product that benefits from resealable, retail-ready, premium-looking packaging."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What materials are used in standy zipper pouches?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Standy zipper pouches are made from food-grade multilayer laminated films such as BOPP, PET, LDPE, aluminium foil, kraft paper, and nylon combinations. The material choice depends on the product's barrier requirement — aluminium foil for maximum freshness protection, transparent BOPP for product visibility, and kraft paper for eco-friendly brand positioning."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What finish options are available for standy zipper pouches?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Standy zipper pouches are available in matte finish (premium soft-touch look), gloss finish (vibrant high-shine retail appeal), metallic finish (eye-catching premium shelf impact), transparent (product visibility), and kraft paper (eco-friendly organic brand look). Custom combinations like matte front with gloss back are also available."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I get custom printed standy zipper pouches in Delhi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Pooja Packaging Industries offers fully custom printed standy zipper pouches in Delhi with brand logo, product name, ingredients, net weight, MRP, FSSAI number, and nutritional information — printed in up to 10 colours with matte, gloss, or metallic lamination as per your brand requirement."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What sizes are available for standy zipper pouches?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Standy zipper pouches are available in a wide range of sizes from small 50g and 100g retail packs to 1kg, 2kg, and 5kg bulk packs. Custom dimensions including width, height, and gusset depth can be manufactured based on your product's weight and retail display requirement."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the minimum order quantity for standy zipper pouches?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "MOQ varies by pouch size, material, and printing complexity. Pooja Packaging Industries offers flexible low MOQ for new brands and startups launching premium products, along with competitive bulk wholesale pricing for established food companies, FMCG manufacturers, and distributors."
+                    }
+                }
+
+
+
+            ],
+        },
+    },
+    {
+        slug: "tubes-packaging",
+        name: "Tubes Packaging",
+        title: "Tubes Packaging Manufacturer",
+
+        seo: {
+            title: "Tubes Packaging Manufacturer in Delhi — Pooja Packaging Industries",
+            description: "Tubes Packaging Manufacturer in Delhi — Pooja Packaging Industries. Custom laminated tubes for cosmetics, pharma & food brands. Get a free quote!",
+            keywords: ["Tubes Packaging Manufacturer"],
+        },
+
+        images: [
+            {
+                image:"/images/tubes-packaging/tube1.png",
+                alt:"Tubes Packaging Manufacturer"
+            },
+            {
+                image:"/images/tubes-packaging/tube2.png",
+                alt:"Tubes Packaging"
+            },
+            {
+                image:"/images/tubes-packaging/tube3.png",
+                alt:"Tubes Packaging"
+            },
+            {
+                image:"/images/tubes-packaging/tube4.png",
+                alt:"Tubes Packaging"
+            },
+            {
+                image:"/images/tubes-packaging/tube5.png",
+                alt:"Tubes Packaging"
+            },
+            {
+                image:"/images/tubes-packaging/tube6.png",
+                alt:"Tubes Packaging"
+            },
+        ],
+
+        content: [
+            {
+                type: "h2",
+                text: "Tubes Packaging Manufacturer in Delhi | Pooja Packaging Industries",
+            },
+
+            {
+                type: "paragraph",
+                text: "Think about the last time you picked up a face cream, a toothpaste, or a hair colour product. Chances are, it came in a tube. <a href='/contact-us'><strong>Tubes packaging</strong></a> is one of the most trusted, hygienic, and consumer-friendly formats in the market — and for good reason.",
+            },
+
+            {
+                type: "paragraph",
+                text: "<a href='/'><strong>Pooja Packaging Industries</strong></a> is a trusted <strong>tubes packaging manufacturer in Delhi</strong>, delivering high-quality custom printed laminated tubes for cosmetic brands, pharmaceutical companies, ayurvedic product manufacturers, and food businesses across India."
+            },
+
+            {
+                type: "h3",
+                text: "Our Tubes Packaging Range",
+            },
+
+            {
+                type: "paragraph",
+                text: "As a specialist tubes packaging manufacturer in Delhi, we offer a complete range of laminated tube solutions:",
+            },
+
+            {
+                type: "features",
+                items: [
+                    {
+                        bold: "Plastic Laminated Tubes",
+                        text: " — most popular for cosmetics, skincare, haircare & personal care"
+                    },
+                    {
+                        bold: "Aluminium Barrier Laminated Tubes (ABL)",
+                        text: " — premium barrier for pharma, dental & sensitive formulations"
+                    },
+                    {
+                        bold: "Plastic Barrier Laminated Tubes (PBL)",
+                        text: "— lightweight, flexible option for food & cosmetic products"
+                    },
+                    {
+                        bold: "Printed Cosmetic Tubes",
+                        text: "— full-colour brand printing for creams, lotions, gels & serums"
+                    },
+                    {
+                        bold: "Pharmaceutical Tubes",
+                        text: "— precise dispensing tubes for ointments, gels & topical medicines"
+                    },
+                    {
+                        bold: "Ayurvedic & Herbal Tubes",
+                        text: "— for herbal creams, oils, balms & natural skincare products"
+                    },
+                    {
+                        bold: "Food Grade Tubes",
+                        text: "— for honey, sauces, condiments, tahini & specialty food products"
+                    },
+                    {
+                        bold: "Metallic & Matte Finish Tubes",
+                        text: "— premium look for luxury skincare and cosmetic brands"
+                    },
+                ],
+            },
+
+            {
+                type: "paragraph",
+                text: "All tubes available with <strong>custom diameter, length, flip-top or screw cap, multi-colour printing, matte/gloss/metallic lamination, and embossing options.</strong>",
+            },
+
+            {
+                type: "h5",
+                text: "Industries & Products We Pack",
+            },
+
+            {
+                type: "checklist",
+                items: [
+                    "Cosmetics & Skincare — face creams, moisturisers, sunscreen, fairness cream, anti-ageing gel",
+                    "Haircare — hair colour, hair mask, keratin treatment, hair growth serum",
+                    "Personal Care — toothpaste, shaving cream, hand cream, body lotion",
+                    "Pharmaceuticals — antibiotic ointment, antifungal cream, pain relief gel, eye ointment",
+                    "Baby Care — baby cream, nappy rash cream, baby lotion",
+                    "Food Products — tomato paste, mayonnaise, honey, cheese spread, mustard"
+                ],
+            },
+
+            {
+                type: "h5",
+                text: "Why Choose Pooja Packaging Industries?",
+            },
+
+            {
+                type: "checklist",
+                items: [
+                    "Based in <strong>Delhi — serving PAN India</strong>",
+                    "<strong> ABL & PBL laminated tubes</strong> — pharma-grade and cosmetic-grade options",
+                    "<strong>Custom diameter & length</strong> — from 10ml travel sizes to 200ml bulk tubes",
+                    "<strong>High-definition multi-colour printing </strong> — 360° brand-ready tube packaging",
+                    "<strong>Multiple cap options </strong> — flip-top, screw cap, nozzle, tamper-evident",
+                    "Low MOQ for new brands <strong>+ bulk pricing</strong> for large manufacturers",
+                    "Consistent quality with <strong>fast production and on-time delivery</strong>",
+                ],
+            },
+
+            {
+                type: "h3",
+                text: "Get Custom Tubes Packaging — Made in Delhi",
+            },
+
+            {
+                type: "paragraph",
+                text: "A great product in mediocre packaging loses before the first use. A great product in premium tubes packaging wins on the shelf and keeps customers coming back. Let us help you build that winning package.",
+            },
+
+            {
+                type: "callout",
+                title: "Contact Us",
+                content:
+                    "📍 Located in Delhi | Delivering Across India\n📞 Contact us today for samples, custom specs & bulk order quotes.",
+            },
+        ],
+
+        faq: [
+            {
+                question: "What is tubes packaging?",
+                answer:
+                    "Tubes packaging refers to flexible, squeezable laminated tubes used to store and dispense viscous products like creams, gels, ointments, toothpaste, and food condiments. Made from plastic laminate (PBL) or aluminium barrier laminate (ABL), tubes offer hygienic dispensing, precise portion control, and excellent printability for brand communication.",
+            },
+            {
+                question:
+                    "Who is the best tubes packaging manufacturer in Delhi?",
+                answer:
+                    "Pooja Packaging Industries is a trusted tubes packaging manufacturer in Delhi, offering custom-printed ABL and PBL laminated tubes for cosmetic, pharmaceutical, ayurvedic, and food brands — with multiple cap options, bulk supply, and low MOQ for new product launches.",
+            },
+            {
+                question: "What is the difference between ABL and PBL tubes?",
+                answer:
+                    "ABL (Aluminium Barrier Laminate) tubes contain an aluminium foil layer that provides superior barrier protection against moisture, oxygen, and light — ideal for pharmaceutical ointments, dental products, and sensitive formulations. PBL (Plastic Barrier Laminate) tubes are fully plastic, lightweight, and more flexible — preferred for cosmetics, food products, and general personal care applications.",
+            },
+            {
+                question: "What types of products use laminated tubes packaging?",
+                answer:
+                    " Laminated tubes are used across multiple industries including cosmetics (face cream, sunscreen, hair colour), pharmaceuticals (ointments, gels, topical medicines), ayurvedic products (herbal creams, balms), personal care (toothpaste, hand cream), baby care, and food products (tomato paste, honey, mayonnaise, sauces).",
+            },
+            {
+                question:
+                    "What cap options are available for tubes packaging?",
+                answer:
+                    "Tubes packaging is available with multiple closure options including flip-top caps, screw caps, nozzle tips, and tamper-evident sealed ends. The right cap depends on your product's viscosity, dispensing requirement, and consumer convenience preference.",
+            },
+            {
+                question:
+                    "Can I get custom printed laminated tubes for my brand in Delhi?",
+                answer:
+                    "Yes. Pooja Packaging Industries offers fully custom printed laminated tubes in Delhi with up to 8-colour high-definition printing — including brand logo, product name, ingredients, usage instructions, and regulatory details — in matte, gloss, or metallic lamination finish.",
+            },
+            {
+                question: "What sizes are available for laminated tubes packaging?",
+                answer:
+                    "Laminated tubes are available in a range of sizes from small 10ml travel-size tubes to 200ml bulk tubes, with custom diameter and length options. Size is determined by your product volume, formulation viscosity, and consumer usage pattern.",
+            },
+            {
+                question:
+                    "Are tubes packaging suitable for pharmaceutical products?",
+                answer:
+                    "Yes. ABL laminated tubes from Pooja Packaging Industries are widely used for pharmaceutical ointments, antifungal creams, pain relief gels, and eye ointments. They provide superior barrier protection, hygienic dispensing, and can be printed with dosage instructions, batch numbers, and regulatory details.",
+            },
+            {
+                question:
+                    "What is the minimum order quantity for laminated tubes?",
+                answer:
+                    "MOQ varies by tube diameter, length, cap type, and printing complexity. Pooja Packaging Industries offers flexible MOQ for new cosmetic and pharma brands launching new products, along with competitive bulk pricing for established manufacturers requiring large-volume tube supply.",
+            },
+        ],
+
+        faqSchema: {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+                {
+                    "@type": "Question",
+                    "name": "What is tubes packaging?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Tubes packaging refers to flexible, squeezable laminated tubes used to store and dispense viscous products like creams, gels, ointments, toothpaste, and food condiments. Made from plastic laminate (PBL) or aluminium barrier laminate (ABL), tubes offer hygienic dispensing, precise portion control, and excellent printability for brand communication."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Who is the best tubes packaging manufacturer in Delhi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Pooja Packaging Industries is a trusted tubes packaging manufacturer in Delhi, offering custom-printed ABL and PBL laminated tubes for cosmetic, pharmaceutical, ayurvedic, and food brands — with multiple cap options, bulk supply, and low MOQ for new product launches."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the difference between ABL and PBL tubes?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "ABL (Aluminium Barrier Laminate) tubes contain an aluminium foil layer that provides superior barrier protection against moisture, oxygen, and light — ideal for pharmaceutical ointments, dental products, and sensitive formulations. PBL (Plastic Barrier Laminate) tubes are fully plastic, lightweight, and more flexible — preferred for cosmetics, food products, and general personal care applications."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What types of products use laminated tubes packaging?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Laminated tubes are used across multiple industries including cosmetics (face cream, sunscreen, hair colour), pharmaceuticals (ointments, gels, topical medicines), ayurvedic products (herbal creams, balms), personal care (toothpaste, hand cream), baby care, and food products (tomato paste, honey, mayonnaise, sauces)."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What cap options are available for tubes packaging?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Tubes packaging is available with multiple closure options including flip-top caps, screw caps, nozzle tips, and tamper-evident sealed ends. The right cap depends on your product's viscosity, dispensing requirement, and consumer convenience preference."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I get custom printed laminated tubes for my brand in Delhi?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Pooja Packaging Industries offers fully custom printed laminated tubes in Delhi with up to 8-colour high-definition printing — including brand logo, product name, ingredients, usage instructions, and regulatory details — in matte, gloss, or metallic lamination finish."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What sizes are available for laminated tubes packaging?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Laminated tubes are available in a range of sizes from small 10ml travel-size tubes to 200ml bulk tubes, with custom diameter and length options. Size is determined by your product volume, formulation viscosity, and consumer usage pattern."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are tubes packaging suitable for pharmaceutical products?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. ABL laminated tubes from Pooja Packaging Industries are widely used for pharmaceutical ointments, antifungal creams, pain relief gels, and eye ointments. They provide superior barrier protection, hygienic dispensing, and can be printed with dosage instructions, batch numbers, and regulatory details."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the minimum order quantity for laminated tubes?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "MOQ varies by tube diameter, length, cap type, and printing complexity. Pooja Packaging Industries offers flexible MOQ for new cosmetic and pharma brands launching new products, along with competitive bulk pricing for established manufacturers requiring large-volume tube supply."
+                    }
+                }
+
+
+            ],
+        },
     },
     {
         slug: "cello-tapes",

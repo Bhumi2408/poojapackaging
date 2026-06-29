@@ -15,6 +15,7 @@ export const siteConfig = {
     { name: "Snacks Packaging", slug: "snacks-packaging" },
     { name: "Seeds Packaging", slug: "seeds-packaging" },
     { name: "Flour Packaging", slug: "atta-pouch-manufacturer" },
+    { name: "Zipper Pouch", slug: "standy-zipper-pouch" },
     { name: "Detergent", slug: "detergent-pouch-manufacturer" },
     { name: "Mattress", slug: "mattress" },
     { name: "Pillow", slug: "pillow" },

@@ -5,7 +5,7 @@ import React from "react";
 const LaminatedRolls = () => {
   return (
     <div className="bg-white -mt-[100px] pt-[150px] rounded-b-[100px] pb-24 relative z-[9] border border-gray-600 flex flex-col items-center justify-center">
-      <p className="3A4F66">Trusted Packaging Solutions for Every Industry</p>
+      <p className="3A4F66">Top Custom Packaging Solution in India for Every Industry</p>
       <h4 className="text-3xl md:text-5xl font-semibold leading-tight text-center mt-4">
         High-Quality Laminated Rolls, <br />
         Designed for Perfect <span className="text-[#c23e34]">*Packaging</span>

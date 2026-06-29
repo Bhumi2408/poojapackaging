@@ -18,7 +18,7 @@ export default function HeroSection() {
             Get Started
           </button></Link>
           <p className="text-thin">
-            At <strong>Pooja Packaging Industries</strong>, we create
+            At <strong><Link href="/products">Pooja Packaging Industries</Link></strong>, we create
             innovative, durable, and attractive packaging solutions designed to
             protect your products and enhance your brand value.
           </p>
@@ -47,7 +47,7 @@ export default function HeroSection() {
           src="/images/home/hero-product.png"
           width={500}
           height={700}
-          alt="Hero Product"
+          alt="Custom Packaging Solutions in India"
           className="relative z-10 object-contain"
         />
       </div>

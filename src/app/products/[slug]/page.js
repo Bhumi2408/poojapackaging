@@ -76,7 +76,7 @@ export default async function ProductPage({ params }) {
 
           {/* Products */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {product.images.map((image, index) => (
+            {product.images.map((item, index) => (
               <div
                 key={index}
                 className="group relative overflow-hidden rounded-[30px] bg-white border border-[#ececec] shadow-[0_10px_35px_rgba(0,0,0,0.06)] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_18px_45px_rgba(0,0,0,0.12)]"
@@ -90,8 +90,8 @@ export default async function ProductPage({ params }) {
                 {/* Product */}
                 <div className="relative z-10 flex items-center justify-center px-10 py-14 min-h-[360px]">
                   <Image
-                    src={image}
-                    alt={product.title}
+                    src={item.image}
+                    alt={item.alt}
                     width={340}
                     height={340}
                     className="w-auto h-[260px] object-contain transition duration-500 group-hover:scale-105"
@@ -120,21 +120,21 @@ export default async function ProductPage({ params }) {
                 return (
                   <h2
                     key={index}
-                    className="text-4xl font-bold mt-7 mb-6"
+                    className="text-3xl font-bold mt-7 mb-6"
                     dangerouslySetInnerHTML={{ __html: item.text }}
                   />
                 );
 
               case "h3":
                 return (
-                  <h3 key={index} className="text-3xl font-semibold mt-7 mb-5"
+                  <h3 key={index} className="text-2xl font-semibold mt-7 mb-5"
                     dangerouslySetInnerHTML={{ __html: item.text }}
                   />
                 );
 
               case "h4":
                 return (
-                  <h4 key={index} className="text-2xl font-semibold mt-7 mb-5"
+                  <h4 key={index} className="text-xl font-semibold mt-7 mb-5"
                     dangerouslySetInnerHTML={{ __html: item.text }}
                   />
                 );
