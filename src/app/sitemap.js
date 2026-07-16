@@ -1,137 +1,52 @@
-// app/sitemap.js
+import { products } from "@/data/products";
+import { blogs } from "@/data/blogs";
 
 export default function sitemap() {
+  const baseUrl = "https://www.poojapackagingindustries.com";
   const lastModified = new Date();
 
-  return [
+  // Static pages
+  const staticRoutes = [
     {
-      url: "https://www.poojapackagingindustries.com",
+      url: baseUrl,
       lastModified,
       priority: 1,
     },
     {
-      url: "https://www.poojapackagingindustries.com/about",
+      url: `${baseUrl}/about`,
       lastModified,
       priority: 0.8,
     },
     {
-      url: "https://www.poojapackagingindustries.com/products",
+      url: `${baseUrl}/products`,
       lastModified,
       priority: 0.8,
     },
     {
-      url: "https://www.poojapackagingindustries.com/blogs",
+      url: `${baseUrl}/blogs`,
       lastModified,
       priority: 0.8,
     },
     {
-      url: "https://www.poojapackagingindustries.com/contact-us",
+      url: `${baseUrl}/contact-us`,
       lastModified,
       priority: 0.8,
-    },
-
-    // Products
-    {
-      url: "https://www.poojapackagingindustries.com/products/seeds-packaging",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/food-packaging",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/Spices-pouch-manufacturer",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/tubes-packaging",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/atta-pouch-manufacturer",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/standy-zipper-pouch",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/rice-packaging",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/tea-packaging",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/snacks-packaging",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/multi-purpose-aluminium-foil",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/printed-laminated-pouches",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/printed-laminated-rolls",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/cello-tapes",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/detergent-pouch-manufacturer",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/pillow",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/mattress",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/pu-foam-sheet-packing",
-      lastModified,
-      priority: 0.8,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/products/pvc-sheet",
-      lastModified,
-      priority: 0.8,
-    },
-
-    // Blogs
-    {
-      url: "https://www.poojapackagingindustries.com/blogs/best-standy-zipper-pouch-manufacturer-in-delhi",
-      lastModified,
-      priority: 0.64,
-    },
-    {
-      url: "https://www.poojapackagingindustries.com/blogs/top-makhana-pouch-manufacturer-in-delhi",
-      lastModified,
-      priority: 0.64,
     },
   ];
+
+  // Products - automatically generated from data/products.js
+  const productRoutes = products.map((product) => ({
+    url: `${baseUrl}/products/${product.slug}`,
+    lastModified,
+    priority: 0.8,
+  }));
+
+  // Blogs - automatically generated from data/blogs.js
+  const blogRoutes = blogs.map((blog) => ({
+    url: `${baseUrl}/blogs/${blog.slug}`,
+    lastModified,
+    priority: 0.64,
+  }));
+
+  return [...staticRoutes, ...productRoutes, ...blogRoutes];
 }
