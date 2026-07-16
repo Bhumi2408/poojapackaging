@@ -88,7 +88,6 @@ export default function Home() {
           __html: JSON.stringify(faqSchema),
         }}
       />
-      <Header />
       <HeroSection />
       <LaminatedRolls />
       <CompanyStats />
