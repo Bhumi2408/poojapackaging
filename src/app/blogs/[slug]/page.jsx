@@ -49,6 +49,15 @@ export default async function BlogDetails({ params }) {
 
   return (
     <>
+      {/* Schema Markup - only renders if blog.schema exists */}
+      {blog.schema?.map((schemaItem, index) => (
+        <script
+          key={index}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaItem) }}
+        />
+      ))}
+
       {/* Hero */}
 
       <section className="bg-[#1E2126] rounded-b-[100px] relative z-10">
