@@ -121,7 +121,7 @@ export default async function BlogDetails({ params }) {
                         ) : (
                           <span
                             key={i}
-                            className={child.bold ? "font-semibold" : ""}
+                            className={child.bold ? "font-bold" : ""}
                             style={{ color: child.color || "inherit" }}
                           >
                             {child.text}
@@ -140,14 +140,14 @@ export default async function BlogDetails({ params }) {
                           <Link
                             key={i}
                             href={child.href}
-                            className="font-medium text-[#C23E34] hover:underline"
+                            className="font-bold text-[#C23E34] hover:underline"
                           >
                             {child.text}
                           </Link>
                         ) : (
                           <span
                             key={i}
-                            className={child.bold ? "font-semibold" : ""}
+                            className={child.bold ? "font-bold" : ""}
                           >
                             {child.text}
                           </span>
