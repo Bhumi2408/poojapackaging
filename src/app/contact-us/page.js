@@ -1,3 +1,4 @@
+import ContactForm from '@/components/ContactForm';
 import { Mail, MapPin, Phone } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
@@ -102,6 +103,10 @@ const schema = {
 const page = () => {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <section className="bg-[#1E2126] flex rounded-b-[100px] relative z-10 overflow-hidden">
         <div className="pt-44 w-[50%]">
           <div className="pl-20 pb-20">
@@ -209,38 +214,7 @@ const page = () => {
               Send Us A Message
             </h3>
 
-            <form className="space-y-5 lg:space-y-6">
-              <input
-                type="text"
-                placeholder="Your Name"
-                className="w-full h-16 rounded-xl border border-gray-300 px-5 text-black outline-none"
-              />
-
-              <input
-                type="email"
-                placeholder="Email Address"
-                className="w-full h-16 rounded-xl border border-gray-300 px-5 text-black outline-none"
-              />
-
-              <input
-                type="tel"
-                placeholder="Phone Number"
-                className="w-full h-16 rounded-xl border border-gray-300 px-5 text-black outline-none"
-              />
-
-              <textarea
-                rows={6}
-                placeholder="Message"
-                className="w-full rounded-xl border border-gray-300 p-5 text-black outline-none resize-none focus:border-[#C23E34]"
-              />
-
-              <button
-                type="submit"
-                className="w-full sm:w-auto bg-gradient-to-b from-[#EBA2A2] to-[#C23E34] text-black font-semibold px-10 py-4 rounded-xl transition-all duration-300 hover:scale-105"
-              >
-                Submit Now
-              </button>
-            </form>
+            <ContactForm />
           </div>
 
         </div>
