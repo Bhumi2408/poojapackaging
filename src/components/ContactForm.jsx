@@ -3,9 +3,6 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-// TODO: replace with your two real Web3Forms access keys
-const ACCESS_KEY_1 = "YOUR_FIRST_ACCESS_KEY_HERE";
-const ACCESS_KEY_2 = "YOUR_SECOND_ACCESS_KEY_HERE";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const PHONE_REGEX = /^\d{10}$/;
@@ -70,8 +67,6 @@ const ContactForm = () => {
     const form = e.currentTarget;
     const formData = new FormData(form);
 
-    // Honeypot: real users never fill this (it's visually hidden). If it
-    // has a value, silently drop the submission instead of sending it on.
     if (formData.get("botcheck")) {
       return;
     }
