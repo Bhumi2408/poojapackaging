@@ -3,6 +3,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
+export const metadata = {
+  alternates: {
+    canonical: "https://www.poojapackagingindustries.com/blogs",
+  },
+};
+
 const page = () => {
   return (
     <>

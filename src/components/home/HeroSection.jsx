@@ -6,9 +6,9 @@ export default function HeroSection() {
     <section className="bg-[#1E2126] flex-wrap md:flex-nowrap flex gap-10 rounded-b-[100px] relative z-10 overflow-hidden">
       <div className="pt-32 lg:pt-56 md:w-[50%]">
         <div className="px-5 md:px-0 md:pl-20">
-          <p className="text-[#848587] text-lg">
-            Smart Packaging for Every Need
-          </p>
+          <h1 className="text-[#848587] text-lg">
+            Pooja Packaging Industries - Top Custom packaging solutions in India
+          </h1>
           <h3 className="text-5xl lg:text-7xl font-semibold mt-6 text-white leading-tight">
             Trusted By <br /> Brands
           </h3>

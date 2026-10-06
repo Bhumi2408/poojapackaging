@@ -21,6 +21,9 @@ export async function generateMetadata({ params }) {
     title: product.seo.title,
     description: product.seo.description,
     keywords: product.seo.keywords,
+    alternates: {
+      canonical: `https://www.poojapackagingindustries.com/products/${product.slug}`,
+    },
   };
 }
 

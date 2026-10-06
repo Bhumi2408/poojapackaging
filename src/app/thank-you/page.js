@@ -4,6 +4,9 @@ import { CheckCircle2 } from "lucide-react";
 export const metadata = {
   title: "Thank You | Pooja Packaging Industries",
   description: "Thank you for contacting Pooja Packaging Industries. Our team will get back to you shortly.",
+  alternates: {
+    canonical: "https://www.poojapackagingindustries.com/thank-you",
+  },
   robots: {
     index: false,
     follow: false,

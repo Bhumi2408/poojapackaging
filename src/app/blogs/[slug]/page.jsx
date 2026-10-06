@@ -21,7 +21,7 @@ export async function generateMetadata({ params }) {
     keywords: blog.seo.keywords,
 
     alternates: {
-      canonical: `https://www.poojapackagingindustries.com/blog/${blog.slug}`,
+      canonical: `https://www.poojapackagingindustries.com/blogs/${blog.slug}`,
     },
 
     openGraph: {

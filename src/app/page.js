@@ -8,6 +8,12 @@ import LaminatedRolls from "@/components/home/LaminatedRolls";
 import ScrollProduct from "@/components/home/ScrollProduct";
 import Testimonials from "@/components/home/Testimonials";
 
+export const metadata = {
+  alternates: {
+    canonical: "https://www.poojapackagingindustries.com",
+  },
+};
+
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
