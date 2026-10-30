@@ -98,16 +98,38 @@ export default async function BlogDetails({ params }) {
                 case "heading": {
                   headingIndex++;
 
-                  const HeadingTag = headingIndex === 1 ? "h3" : "h5";
+                  const levelMap = {
+                    2: {
+                      tag: "h2",
+                      className:
+                        "mt-10 mb-6 text-3xl font-semibold text-[#1E2126]",
+                    },
+                    3: {
+                      tag: "h3",
+                      className:
+                        "mt-8 mb-5 text-2xl font-semibold text-[#1E2126]",
+                    },
+                    4: {
+                      tag: "h4",
+                      className:
+                        "mt-7 mb-4 text-xl font-semibold text-[#1E2126]",
+                    },
+                  };
+
+                  const { tag: HeadingTag, className } = item.level
+                    ? levelMap[item.level] || levelMap[3]
+                    : {
+                        tag: headingIndex === 1 ? "h3" : "h5",
+                        className:
+                          headingIndex === 1
+                            ? "mt-7 mb-6 text-3xl font-semibold text-[#1E2126]"
+                            : "mt-7 mb-5 text-xl font-semibold text-[#1E2126]",
+                      };
 
                   return (
                     <HeadingTag
                       key={index}
-                      className={`${
-                        headingIndex === 1
-                          ? "mt-7 mb-6 text-3xl font-semibold text-[#1E2126]"
-                          : "mt-7 mb-5 text-xl font-semibold text-[#1E2126]"
-                      }`}
+                      className={className}
                     >
                       {item.children.map((child, i) =>
                         child.href ? (
