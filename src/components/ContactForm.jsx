@@ -7,6 +7,10 @@ import { useRouter } from "next/navigation";
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const PHONE_REGEX = /^\d{10}$/;
 
+// sessionStorage key shared with PopupForm. Once set, the popup stays hidden
+// for the rest of this browser tab's session.
+export const POPUP_SEEN_KEY = "ppi_enquiry_popup_seen";
+
 const submitToWeb3Forms = async (payload, accessKey) => {
   const res = await fetch("https://api.web3forms.com/submit", {
     method: "POST",
@@ -23,7 +27,11 @@ const submitToWeb3Forms = async (payload, accessKey) => {
   return data;
 };
 
-const ContactForm = () => {
+const ContactForm = ({
+  compact = false,
+  subject = "New Contact Form Submission - Pooja Packaging Industries",
+  onSuccess,
+}) => {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -84,7 +92,7 @@ const ContactForm = () => {
       email: formData.get("email"),
       phone: formData.get("phone"),
       message: formData.get("message"),
-      subject: "New Contact Form Submission - Pooja Packaging Industries",
+      subject,
     };
 
     try {
@@ -101,6 +109,11 @@ const ContactForm = () => {
 
       if (atLeastOneSucceeded) {
         form.reset();
+        // Visitor already enquired, so don't show the popup again this session
+        try {
+          sessionStorage.setItem(POPUP_SEEN_KEY, "1");
+        } catch {}
+        onSuccess?.();
         router.push("/thank-you");
         return;
       }
@@ -113,8 +126,16 @@ const ContactForm = () => {
     }
   };
 
+  const inputClass = `w-full ${
+    compact ? "h-12 px-4" : "h-16 px-5"
+  } rounded-xl border border-gray-300 text-black outline-none focus:border-[#C23E34]`;
+
   return (
-    <form onSubmit={handleSubmit} noValidate className="space-y-5 lg:space-y-6">
+    <form
+      onSubmit={handleSubmit}
+      noValidate
+      className={compact ? "space-y-3" : "space-y-5 lg:space-y-6"}
+    >
       {/* Honeypot field for spam bots - kept out of view, never shown to real users */}
       <input
         type="text"
@@ -129,7 +150,7 @@ const ContactForm = () => {
           type="text"
           name="name"
           placeholder="Your Name"
-          className="w-full h-16 rounded-xl border border-gray-300 px-5 text-black outline-none"
+          className={inputClass}
         />
         {fieldErrors.name && (
           <p className="mt-1.5 text-sm text-red-600">{fieldErrors.name}</p>
@@ -141,7 +162,7 @@ const ContactForm = () => {
           type="email"
           name="email"
           placeholder="Email Address"
-          className="w-full h-16 rounded-xl border border-gray-300 px-5 text-black outline-none"
+          className={inputClass}
         />
         {fieldErrors.email && (
           <p className="mt-1.5 text-sm text-red-600">{fieldErrors.email}</p>
@@ -156,7 +177,7 @@ const ContactForm = () => {
           inputMode="numeric"
           maxLength={10}
           onInput={handlePhoneInput}
-          className="w-full h-16 rounded-xl border border-gray-300 px-5 text-black outline-none"
+          className={inputClass}
         />
         {fieldErrors.phone && (
           <p className="mt-1.5 text-sm text-red-600">{fieldErrors.phone}</p>
@@ -166,9 +187,11 @@ const ContactForm = () => {
       <div>
         <textarea
           name="message"
-          rows={6}
+          rows={compact ? 3 : 6}
           placeholder="Message"
-          className="w-full rounded-xl border border-gray-300 p-5 text-black outline-none resize-none focus:border-[#C23E34]"
+          className={`w-full rounded-xl border border-gray-300 ${
+            compact ? "p-4" : "p-5"
+          } text-black outline-none resize-none focus:border-[#C23E34]`}
         />
         {fieldErrors.message && (
           <p className="mt-1.5 text-sm text-red-600">{fieldErrors.message}</p>
@@ -180,7 +203,9 @@ const ContactForm = () => {
       <button
         type="submit"
         disabled={loading}
-        className="w-full sm:w-auto bg-gradient-to-b from-[#EBA2A2] to-[#C23E34] text-black font-semibold px-10 py-4 rounded-xl transition-all duration-300 hover:scale-105 disabled:opacity-60 disabled:hover:scale-100"
+        className={`w-full ${
+          compact ? "py-3" : "sm:w-auto py-4"
+        } bg-gradient-to-b from-[#EBA2A2] to-[#C23E34] text-black font-semibold px-10 rounded-xl transition-all duration-300 hover:scale-105 disabled:opacity-60 disabled:hover:scale-100`}
       >
         {loading ? "Sending..." : "Submit Now"}
       </button>

@@ -2,6 +2,7 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PopupForm from "@/components/PopupForm";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -41,6 +42,8 @@ export default function RootLayout({ children }) {
         </main>
 
         <Footer />
+
+        <PopupForm />
       </body>
 
       <GoogleAnalytics gaId="G-MPB2FG5B2Y" />
